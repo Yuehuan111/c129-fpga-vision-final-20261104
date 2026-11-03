@@ -1,0 +1,74 @@
+C129 最终交付包性能分析与证据索引
+整理日期：2026-11-04
+
+一、工程与证据范围
+本说明依据用户指定的《最终版本_代码与全部数据文件.zip》内现存代码、PDS 构建报告、实板日志和离线画质结果整理。此次整理只读取原包，未修改 RTL、上位机、位流或原始测量数据，也未进行新的硬件测试。
+原包共 547 个文件，解压文件总大小 981,953,222 字节；原 ZIP 校验值见仓库根目录 SHA256SUMS.txt，各包内文件的 SHA256 见 package_manifest.json。
+
+以下路径均为 ZIP 内路径。为便于复核，定义：
+R = C129_当前版本_代码与全部依据_20261103_213455/
+P = R + C129_compiled_final_20261031/
+E = P + host/results/demo_evidence/demo_metrics_20261103_192149_284232/
+Q = P + host/results/imported_quality_20261103/
+上述“+”表示直接拼接目录名，不是磁盘上的实际字符。
+
+二、帧率：输入和新处理帧均为 30 fps
+E/summary.json 的 dynamic_log_analysis.board_v5_rates 记录：
+  window_seconds = 307
+  captured_fps = 30.0
+  processed_fps = 30.0
+统计依据为周期 V5 状态包中的 FPGA 秒计数与帧计数差分，分别反映采集输入帧和新完成处理帧。普通矫正稳定段（segment=3）的 board_tick_rates 还记录了 2 秒小窗口：observed_raw_fps=30.0，observed_new_fps=30.0。
+这两个帧率口径与 HDMI 重复刷新、电脑预览刷新、IMU 参数发送或确认频率分开记录。配置更新率不作为视频帧率使用。当前交付针对 1280×720 图像；本说明不将上述数据表述为 1080p 实测结果。
+原始来源：E/summary.json、E/session_window.jsonl；上位机展示记录：E/display_metrics.csv。
+
+三、FPGA 输入到输出延迟
+本次列示普通矫正稳定段 segment=3、host_observed_mode=normal、config_version=49 的 69 个有效匹配样本。该段主机单调时钟范围为 83798.0820365～83800.4033902 秒，约 2.321 秒。仅纳入 accepted=True 的同源帧计时记录，不混入切换等待段、不同配置或动态 IMU 段。
+
+指标                         P50（ms）    P95（ms）
+FPGA 输入至输出首像素          71.902       71.955
+FPGA 输入至输出末像素          87.899       87.952
+
+从 E/latency_samples.csv 独立复算，未四舍五入的 P95 分别为 71.9552 ms 和 87.9516 ms。分位数采用排序后位置 (N-1)×q 的相邻样本线性插值；结果与 E/summary.json 的 segments[3].distributions_us 一致。
+首像素延迟 = output_first_us - input_first_us。
+整帧延迟 = output_last_us - input_first_us。
+起点是 FPGA 接收到源帧第一个有效像素；终点分别是同一源帧在 FPGA 视频输出端的首个、最后一个有效像素。统计包含帧采集、排队、矫正处理、等待输出以及末像素指标中的有效图像扫描输出；不含曝光、传感器内部管线、HDMI 采集卡、USB、电脑预览或显示面板响应。时间字段单位为微秒，日志的 unit_ns=1000；实际跨时钟域计时还受量化与同步影响。
+
+计数窗口口径：该普通矫正段内 display_underflow、missing_capture_tags、missing_display_tags、metadata_overrun、uart_drops 的累计计数差分均为 0；这些是段内增量，不等于历史累计值均为 0。主机解析器起止计数没有形成完整差分窗口，summary 保留 measurement_trust.passed=false，原因为 host_framing_errors_or_counter_window_unavailable。本表据有效匹配样本给出延迟统计，不将其改写为完整串口测量链路完整性检查全部通过。
+
+四、几何效果与清晰度
+几何结果来源：Q/baseline/straightness.json。对该批棋盘格照片所提取的各 40 条线进行拟合，整体直线残差 RMS 为：
+  原图：2.201255 px（6788 个采样点）
+  普通矫正：0.282366 px（6008 个采样点）
+对应绝对残差 P95：原图 4.364827 px，普通矫正 0.587389 px。
+这里的“整体”指该批提取线点的合并统计，范围由各照片的 bounds 与逐线记录确定。原图和矫正图文件名、模式及 SHA256 记录在 Q/baseline/inputs.json，原始 PNG 保存在 Q/baseline/images/。
+
+近似斜边清晰度来源：Q/baseline/sharpness.json、verification.json。两幅照片共同有效的 6 条近水平边，其 MTF50 中位数为：
+  原图：0.346756 cycles/pixel
+  普通矫正：0.326921 cycles/pixel
+该项是局部斜边 SFR 估计，按原始像素计量，主要表征垂直方向分辨能力；不与直线度合并为单一“画质分数”。基线样本已确认细节增强关闭，40 个候选 ROI 的复核记录见 verification.json。
+复测结果与四组后续照片见 Q/retest/清晰度复测结果.txt，原始资料见 R/原始指标资料/C129_清晰度复测_队友资料_20261103.zip。复测保留逐组和逐方向口径，不把不同目标边、尺度和采集条件直接混为一个数值。
+
+五、PDS 资源与时序
+构建标识：0x0720C129。来源为：
+  P/fpga_reference/project/output/c129/result.json
+  P/fpga_reference/project/board/build_cmos1/report_timing/camera_board50_top.rtr
+E/summary.json 的 offline_pds 同时保存了报告解析结果。
+
+单元       已用 / 可用          占用率
+LUT        30263 / 42800        70.71%
+FF         34299 / 64200        53.43%
+CLM        10256 / 10700        95.85%
+APM        79.5 / 84            94.64%
+DRM        92 / 134             68.66%
+PLL        3 / 5               60.00%
+
+这些数值按 PDS 单元口径列示；APM 的半单元数值保持报告原值。CLM、LUT、FF 为不同资源统计，不相加计算总占用。
+慢角最差 setup 裕量 +0.203 ns、hold 裕量 +0.051 ns；快角最差 setup 裕量 +1.834 ns、hold 裕量 +0.005 ns。对应报告内 setup/hold 失败端点为 0。上述为现存约束与构建下的静态时序结果，板上帧率和延迟分别引用第二、三节日志。
+位流文件为 P/C129_720p_cmos1.sbit。R/交付验证.json 保留位流 SHA256 与打包核对记录；当前资料整理未重新编译位流。
+
+六、核验方式
+1. 下载原 ZIP，使用 SHA256SUMS.txt 核对压缩包本体。
+2. 解压后按 package_manifest.json 核对每个 ZIP 内文件的路径、大小和 SHA256。清单按外层 ZIP 文件条目生成，内嵌 ZIP 作为完整文件校验。
+3. 按以上 R、P、E、Q 路径查看原始报告与日志；延迟可按 segment=3、config_version=49、accepted=True 筛选后复算。
+4. 保留原始模式、采样范围和测量边界说明，使展示数值、技术说明与原始证据使用一致口径。
+
