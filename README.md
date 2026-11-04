@@ -10,7 +10,7 @@
 
 请在 Release 页的 **Assets** 中下载 **`C129_final_code_and_all_data.zip`**。完整工程源码、PDS 工程、时序与引脚约束、配套 IP、位流、上位机、C97 标定参数、交付包内的全部运行日志、原始测试图片、画质报告及复核程序均在这个附件中。
 
-**不要将 GitHub 自动生成的 `Source code (zip)` 或 `Source code (tar.gz)` 当作完整工程。** 自动生成的源码包只包含本仓库的首页、性能说明和校验清单。
+本仓库 **Code 页面已展开全部工程与数据**，入口为 [`C129_compiled_final_20261031/`](C129_compiled_final_20261031/)。可直接浏览源码，或通过 **Code → Download ZIP** 下载当前分支。4 个超过 GitHub 单文件限制的历史日志以无损 `.jsonl.gz` 保存，使用前可解压，详情见 [Code 文件说明](docs/Code文件说明.md)。Release 页的自动 `Source code (zip/tar.gz)` 对应发布时的说明快照；原始完整包请下载上方具名附件。
 
 Release 附件原文件名为 `最终版本_代码与全部数据文件.zip`，仅为便于下载改为英文名，文件内容不变。完整 ZIP 的 SHA256 为：
 
@@ -22,7 +22,7 @@ fc967f2c99bf21b17e80ee0780e2514d2b15069b7e1e3d56da943d38bb067167
 
 ## 使用步骤
 
-1. 解压完整 ZIP，进入 `C129_当前版本_代码与全部依据_20261103_213455/C129_compiled_final_20261031/`。
+1. 下载 Release 完整 ZIP 时，解压后进入 `C129_当前版本_代码与全部依据_20261103_213455/C129_compiled_final_20261031/`；下载 Code 当前分支时，进入仓库内的 `C129_compiled_final_20261031/`。
 2. 连接摄像头、IMU、HDMI 和串口，下载包内 `C129_720p_cmos1.sbit`。
 3. 首次使用按工程内 `使用说明.txt` 配置 Python 和上位机依赖，然后运行 `start_demo.cmd`。
 4. 在上位机选择实际设备并加载标定参数，即可切换普通矫正、IMU 动态矫正、平面扫描和自适应图像增强等演示模式。
@@ -58,6 +58,9 @@ fc967f2c99bf21b17e80ee0780e2514d2b15069b7e1e3d56da943d38bb067167
 
 | 内容 | 位置 |
 | --- | --- |
+| 可直接浏览的最终工程源码、位流与数据 | [C129_compiled_final_20261031/](C129_compiled_final_20261031/) |
+| 原始指标交付资料 | [原始指标资料/](原始指标资料/) |
+| Code 文件完整性清单及大日志说明 | [code_import_manifest.json](code_import_manifest.json) · [Code文件说明](docs/Code文件说明.md) |
 | 完整工程、位流、上位机与全部交付数据 | [Release 完整 ZIP](https://github.com/Yuehuan111/c129-fpga-vision-final-20261104/releases/tag/C129-final-20261104) |
 | 性能指标、定义、测试范围与包内证据路径 | [docs/性能分析报告.txt](docs/性能分析报告.txt) |
 | 原 ZIP 的 SHA256 | [SHA256SUMS.txt](SHA256SUMS.txt) |

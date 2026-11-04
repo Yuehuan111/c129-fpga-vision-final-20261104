@@ -1,0 +1,45 @@
+{
+  "scope": "Presentation and read-only export only; no image-processing changes",
+  "original_archive": "C129_已编译完整工程_含最新上位机及标定_20261031.zip",
+  "original_archive_sha256": "2c23ce463f6d0584db211ce4cce488991a17a085e0cbfa5d9c8c466f1b803a6e",
+  "changed_files": [
+    "host/demo_app.py",
+    "host/imu_session.py"
+  ],
+  "new_host_files": [
+    "host/demo_metrics.py",
+    "host/demo_theme.py"
+  ],
+  "restored_unchanged_dependencies": [
+    {
+      "path": "host/validation_c128/fixed_roll_360.json",
+      "sha256": "c9bde109e2c8e7dca8561f9bb4c4bd2b65788f8af34905132193b5b80dd83e60",
+      "source": "D:\\FPGA\\C129_extended_20261030\\host\\validation_c128\\fixed_roll_360.json"
+    },
+    {
+      "path": "host/validate_visual_scan.py",
+      "sha256": "a12f83e2151a0029f062d814640e01eff48190ace986cc30c75ed875b9c2cab2",
+      "source": "D:\\FPGA\\C129_extended_20261030\\host\\validate_visual_scan.py"
+    },
+    {
+      "path": "host/optical_tools/source_manifest.json",
+      "sha256": "e278ca6d59ba608beba1e15d6985c77fbd741704ae88acb253cea43b61fcb353",
+      "source": "D:\\FPGA\\C129_extended_20261030\\host\\optical_tools\\source_manifest.json"
+    },
+    {
+      "path": "host/optical_tools/reference/create_charts.py",
+      "sha256": "6585b31836ecceb41b370312b4004f792e66a5ad7d4532e3cb973877d84569a8",
+      "source": "D:\\FPGA\\C129_extended_20261030\\host\\optical_tools\\reference\\create_charts.py"
+    }
+  ],
+  "protected_files_identical": 385,
+  "fpga_recompiled": false,
+  "fpga_bitstream_changed": false,
+  "hardware_tested_this_turn": false,
+  "quota_stop_remaining_percent": 30,
+  "notes": [
+    "Existing PDS reports remain applicable to byte-identical FPGA inputs.",
+    "No hardware metrics or optical scores are prefilled.",
+    "Existing host tests and synthetic measurement tests are offline evidence."
+  ]
+}

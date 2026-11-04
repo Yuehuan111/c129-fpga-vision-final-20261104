@@ -1,0 +1,250 @@
+{
+  "all_roi_results_match": true,
+  "checked_rois": 40,
+  "common_edge_median_mtf50_cycles_per_pixel": {
+    "1": 0.3269205882436048,
+    "2": 0.3467558831685732
+  },
+  "checks": [
+    {
+      "image": "1",
+      "edge": "TL_top",
+      "matched": true,
+      "mtf50": 0.30369579814598074
+    },
+    {
+      "image": "1",
+      "edge": "TL_right",
+      "matched": true,
+      "mtf50": 0.48227043673850845
+    },
+    {
+      "image": "1",
+      "edge": "TL_bottom",
+      "matched": true,
+      "mtf50": 0.3163432583374083
+    },
+    {
+      "image": "1",
+      "edge": "TL_left",
+      "matched": true,
+      "mtf50": 0.4007645327571517
+    },
+    {
+      "image": "1",
+      "edge": "TR_top",
+      "matched": true,
+      "mtf50": 0.304186635883894
+    },
+    {
+      "image": "1",
+      "edge": "TR_right",
+      "matched": true,
+      "mtf50": 0.42354219326102344
+    },
+    {
+      "image": "1",
+      "edge": "TR_bottom",
+      "matched": true,
+      "rejected": "ROI needs >=32 pixels across and >=48 pixels along the edge"
+    },
+    {
+      "image": "1",
+      "edge": "TR_left",
+      "matched": true,
+      "mtf50": 0.44237184154492776
+    },
+    {
+      "image": "1",
+      "edge": "C_top",
+      "matched": true,
+      "mtf50": 0.3987370272913336
+    },
+    {
+      "image": "1",
+      "edge": "C_right",
+      "matched": true,
+      "mtf50": null
+    },
+    {
+      "image": "1",
+      "edge": "C_bottom",
+      "matched": true,
+      "mtf50": 0.3374979181498014
+    },
+    {
+      "image": "1",
+      "edge": "C_left",
+      "matched": true,
+      "mtf50": null
+    },
+    {
+      "image": "1",
+      "edge": "BL_top",
+      "matched": true,
+      "mtf50": 0.3572353682265767
+    },
+    {
+      "image": "1",
+      "edge": "BL_right",
+      "matched": true,
+      "mtf50": null
+    },
+    {
+      "image": "1",
+      "edge": "BL_bottom",
+      "matched": true,
+      "mtf50": 0.27041508713306944
+    },
+    {
+      "image": "1",
+      "edge": "BL_left",
+      "matched": true,
+      "mtf50": null
+    },
+    {
+      "image": "1",
+      "edge": "BR_top",
+      "matched": true,
+      "rejected": "ROI needs >=32 pixels across and >=48 pixels along the edge"
+    },
+    {
+      "image": "1",
+      "edge": "BR_right",
+      "matched": true,
+      "mtf50": 0.40520045310567626
+    },
+    {
+      "image": "1",
+      "edge": "BR_bottom",
+      "matched": true,
+      "rejected": "ROI needs >=32 pixels across and >=48 pixels along the edge"
+    },
+    {
+      "image": "1",
+      "edge": "BR_left",
+      "matched": true,
+      "mtf50": null
+    },
+    {
+      "image": "2",
+      "edge": "TL_top",
+      "matched": true,
+      "mtf50": 0.39277878488186546
+    },
+    {
+      "image": "2",
+      "edge": "TL_right",
+      "matched": true,
+      "mtf50": null
+    },
+    {
+      "image": "2",
+      "edge": "TL_bottom",
+      "matched": true,
+      "mtf50": 0.3347714433959844
+    },
+    {
+      "image": "2",
+      "edge": "TL_left",
+      "matched": true,
+      "rejected": "Choose an edge 1..15 degrees from the selected axis; 3..7 is preferable"
+    },
+    {
+      "image": "2",
+      "edge": "TR_top",
+      "matched": true,
+      "rejected": "ROI needs >=32 pixels across and >=48 pixels along the edge"
+    },
+    {
+      "image": "2",
+      "edge": "TR_right",
+      "matched": true,
+      "mtf50": null
+    },
+    {
+      "image": "2",
+      "edge": "TR_bottom",
+      "matched": true,
+      "rejected": "ROI needs >=32 pixels across and >=48 pixels along the edge"
+    },
+    {
+      "image": "2",
+      "edge": "TR_left",
+      "matched": true,
+      "mtf50": null
+    },
+    {
+      "image": "2",
+      "edge": "C_top",
+      "matched": true,
+      "mtf50": 0.35874032294116204
+    },
+    {
+      "image": "2",
+      "edge": "C_right",
+      "matched": true,
+      "mtf50": null
+    },
+    {
+      "image": "2",
+      "edge": "C_bottom",
+      "matched": true,
+      "mtf50": 0.32072394700396184
+    },
+    {
+      "image": "2",
+      "edge": "C_left",
+      "matched": true,
+      "mtf50": null
+    },
+    {
+      "image": "2",
+      "edge": "BL_top",
+      "matched": true,
+      "mtf50": 0.3704264768548487
+    },
+    {
+      "image": "2",
+      "edge": "BL_right",
+      "matched": true,
+      "mtf50": null
+    },
+    {
+      "image": "2",
+      "edge": "BL_bottom",
+      "matched": true,
+      "mtf50": 0.27047997430430337
+    },
+    {
+      "image": "2",
+      "edge": "BL_left",
+      "matched": true,
+      "mtf50": null
+    },
+    {
+      "image": "2",
+      "edge": "BR_top",
+      "matched": true,
+      "rejected": "ROI needs >=32 pixels across and >=48 pixels along the edge"
+    },
+    {
+      "image": "2",
+      "edge": "BR_right",
+      "matched": true,
+      "mtf50": null
+    },
+    {
+      "image": "2",
+      "edge": "BR_bottom",
+      "matched": true,
+      "rejected": "ROI needs >=32 pixels across and >=48 pixels along the edge"
+    },
+    {
+      "image": "2",
+      "edge": "BR_left",
+      "matched": true,
+      "mtf50": null
+    }
+  ]
+}

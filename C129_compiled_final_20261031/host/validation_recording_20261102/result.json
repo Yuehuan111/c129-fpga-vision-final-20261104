@@ -1,0 +1,22 @@
+{
+  "status": "PASS_OFFLINE",
+  "existing_demo_ui_tests": 2,
+  "recording_tests": 5,
+  "real_720p_mp4_roundtrip": {
+    "width": 1280,
+    "height": 720,
+    "fps": 30.0,
+    "decoded_frames": 91,
+    "wall_time_seconds": 3.0297767000010936,
+    "file_duration_seconds": 3.033333333333333,
+    "video": "D:\\FPGA_Pangu50K_Demos\\C129_演示指标美化版_20261031\\C129_compiled_final_20261031\\host\\validation_recording_20261102\\offline_720p_1793606531767344400.mp4",
+    "source_type": "Repeated local PNG; not a live hardware recording"
+  },
+  "hardware_accessed": false,
+  "changed_file_sha256": {
+    "host/demo_app.py": "dbe6ffd724e8898e039ffc9d748358306f1d6e4863dec4963fa8a7648b8c1809",
+    "host/preview_recording.py": "2413ada7fdaf9770e7b111c66c0ce8f3393c214d08e4664a03e6cfb343121cad",
+    "host/tests/test_preview_recording.py": "58687dde83d89ac8a4ae65049bb95047931b2ef83483d7c30cb77b70ab69c1be",
+    "使用说明.txt": "7a99d6cea9b57689a1a4ccda55db523d558ed4fc9fdcf1f2729f5b3ef06f67d2"
+  }
+}

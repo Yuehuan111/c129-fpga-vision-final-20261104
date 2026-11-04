@@ -1,0 +1,23 @@
+// 720p input/output, current rotated calibration; no extra 180-degree roll.
+localparam integer C_INPUT_WIDTH=1280, C_INPUT_HEIGHT=720;
+localparam integer C_OUTPUT_WIDTH=1280, C_OUTPUT_HEIGHT=720;
+localparam signed [31:0] C_FX = 32'sh01A3517D;
+localparam signed [31:0] C_FY = 32'sh01A6B493;
+localparam signed [31:0] C_CX = 32'sh026DFA0A;
+localparam signed [31:0] C_CY = 32'sh014EE446;
+localparam signed [31:0] C_FISH_K1 = 32'shFFFFFFF4;
+localparam signed [31:0] C_FISH_K2 = 32'sh000000BF;
+localparam signed [31:0] C_FISH_K3 = 32'sh000000D3;
+localparam signed [31:0] C_FISH_K4 = 32'shFFFFFFB2;
+localparam signed [31:0] C_FX_OUT = 32'sh0162C1FF;
+localparam signed [31:0] C_FY_OUT = 32'sh0162C1FF;
+localparam signed [31:0] C_CX_OUT = 32'sh027F8000;
+localparam signed [31:0] C_CY_OUT = 32'sh01678000;
+localparam signed [31:0] C_INV_FX_OUT = 32'sh000000B9;
+localparam signed [31:0] C_INV_FY_OUT = 32'sh000000B9;
+localparam signed [31:0] C_COS = 32'sh00010000;
+localparam signed [31:0] C_SIN = 32'sh00000000;
+localparam signed [31:0] C_GAIN_Q8 = 32'sh00000100;
+localparam signed [31:0] C_OFFSET = 32'sh00000000;
+localparam signed [31:0] C_MODE = 32'sh00000001;
+localparam signed [31:0] C_MODEL_TAG = 32'sh46495348;

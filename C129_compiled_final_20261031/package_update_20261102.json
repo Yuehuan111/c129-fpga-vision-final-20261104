@@ -1,0 +1,30 @@
+{
+  "source_archive": "D:\\FPGA_Pangu50K_Demos\\C129_演示指标美化版_20261031.zip",
+  "source_archive_sha256": "adf5fa12f38296ff8132d72a4cb5498f32f0b8517b7b9f976aeb1955aef69be3",
+  "created_at": "2026-11-02T17:30:39.698494+08:00",
+  "updated_source_files": [
+    "host/demo_app.py",
+    "host/preview_recording.py",
+    "host/tests/test_preview_recording.py",
+    "使用说明.txt"
+  ],
+  "source_hashes": {
+    "host/demo_app.py": "dbe6ffd724e8898e039ffc9d748358306f1d6e4863dec4963fa8a7648b8c1809",
+    "host/preview_recording.py": "2413ada7fdaf9770e7b111c66c0ce8f3393c214d08e4664a03e6cfb343121cad",
+    "host/tests/test_preview_recording.py": "58687dde83d89ac8a4ae65049bb95047931b2ef83483d7c30cb77b70ab69c1be",
+    "使用说明.txt": "7a99d6cea9b57689a1a4ccda55db523d558ed4fc9fdcf1f2729f5b3ef06f67d2"
+  },
+  "portable_preferences": {
+    "schema": "unified_host_preferences_v1",
+    "last_mounting_path": "calibration/IMU_mounting_20261030_new_position_PENDING_VALIDATION.json",
+    "auto_connect": false,
+    "auto_apply_mounting": false,
+    "preview_rotate_180": true
+  },
+  "hardware_accessed": false,
+  "fpga_rebuilt": false,
+  "status": "PACKAGE_SOURCE_VERIFIED",
+  "original_archive_file_count": 485,
+  "unchanged_fpga_files": 382,
+  "checks": "Seven offline tests and portable startup checks passed; original files preserved except declared host updates."
+}

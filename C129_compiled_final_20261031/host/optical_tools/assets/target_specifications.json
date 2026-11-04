@@ -1,0 +1,47 @@
+{
+  "page_size_mm": [
+    297,
+    210
+  ],
+  "print_scale_percent": 100,
+  "pages": [
+    {
+      "page": 1,
+      "type": "checkerboard",
+      "squares": [
+        11,
+        6
+      ],
+      "inner_corners": [
+        10,
+        5
+      ],
+      "square_mm": 20,
+      "active_size_mm": [
+        220,
+        120
+      ]
+    },
+    {
+      "page": 2,
+      "type": "straight_grid",
+      "spacing_mm": 10,
+      "line_width_mm": 0.25,
+      "active_size_mm": [
+        240,
+        140
+      ]
+    },
+    {
+      "page": 3,
+      "type": "slanted_edge",
+      "square_mm": 36,
+      "angle_degrees": 5,
+      "patch_count": 5,
+      "nominal_device_gray": 0.5,
+      "reflectance_contrast": "not calibrated",
+      "iso_certified": false
+    }
+  ],
+  "print_note": "Flat matte mounting, no Fit/Shrink. Measure both 100mm rulers and actual square spacing. These are vector artwork, not precision-certified physical targets."
+}

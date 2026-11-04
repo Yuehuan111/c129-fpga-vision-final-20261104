@@ -1,0 +1,17 @@
+{
+  "video": "offline_720p_1793606531767344400.mp4",
+  "status": "saved",
+  "error": null,
+  "stop_reason": "Offline validation: repeated saved PNG, no hardware",
+  "width": 1280,
+  "height": 720,
+  "audio": false,
+  "codec": "mp4v",
+  "file_fps": 30.0,
+  "elapsed_seconds": 3.0297767000010936,
+  "video_duration_seconds": 3.033333333333333,
+  "written_frames": 91,
+  "preview_submissions": 86,
+  "note": "Preview recording; held frames preserve wall time. File FPS is not FPGA throughput.",
+  "orientation": "Follows preview rotation; original capture pixels are unchanged."
+}

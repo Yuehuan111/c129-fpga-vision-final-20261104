@@ -1,0 +1,239 @@
+{
+  "parameter_version": "C97_720P_rot180_20261019_from_143704",
+  "model": "opencv_fisheye_k1_k2_k3_k4",
+  "image_size": [
+    1280,
+    720
+  ],
+  "output_image_size": [
+    1280,
+    720
+  ],
+  "camera_matrix": [
+    [
+      419.3183179078504,
+      0.0,
+      621.9767084893875
+    ],
+    [
+      0.0,
+      422.705364018169,
+      334.89168714681045
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "output_camera_matrix": [
+    [
+      354.7577929297721,
+      0.0,
+      639.5
+    ],
+    [
+      0.0,
+      354.7577929297721,
+      359.49999999999994
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "dist_coeff_order": [
+    "fish_k1",
+    "fish_k2",
+    "fish_k3",
+    "fish_k4"
+  ],
+  "dist_coeffs": [
+    -0.00018930462432682472,
+    0.002909516916793169,
+    0.0032269961463248,
+    -0.0011834774144295539
+  ],
+  "parameters": {
+    "fx": {
+      "float_value": 419.3183179078504,
+      "decimal": 27480445,
+      "verilog_hex": "32'sh01A3517D",
+      "restored_float": 419.3183135986328,
+      "quantization_error": -4.309217615627858e-06
+    },
+    "fy": {
+      "float_value": 422.705364018169,
+      "decimal": 27702419,
+      "verilog_hex": "32'sh01A6B493",
+      "restored_float": 422.7053680419922,
+      "quantization_error": 4.023823180432373e-06
+    },
+    "cx": {
+      "float_value": 621.9767084893875,
+      "decimal": 40761866,
+      "verilog_hex": "32'sh026DFA0A",
+      "restored_float": 621.9767150878906,
+      "quantization_error": 6.598503091481689e-06
+    },
+    "cy": {
+      "float_value": 334.89168714681045,
+      "decimal": 21947462,
+      "verilog_hex": "32'sh014EE446",
+      "restored_float": 334.8916931152344,
+      "quantization_error": 5.968423920421628e-06
+    },
+    "fish_k1": {
+      "float_value": -0.00018930462432682472,
+      "decimal": -12,
+      "verilog_hex": "32'shFFFFFFF4",
+      "restored_float": -0.00018310546875,
+      "quantization_error": 6.199155576824724e-06
+    },
+    "fish_k2": {
+      "float_value": 0.002909516916793169,
+      "decimal": 191,
+      "verilog_hex": "32'sh000000BF",
+      "restored_float": 0.0029144287109375,
+      "quantization_error": 4.911794144330829e-06
+    },
+    "fish_k3": {
+      "float_value": 0.0032269961463248,
+      "decimal": 211,
+      "verilog_hex": "32'sh000000D3",
+      "restored_float": 0.0032196044921875,
+      "quantization_error": -7.3916541373001375e-06
+    },
+    "fish_k4": {
+      "float_value": -0.0011834774144295539,
+      "decimal": -78,
+      "verilog_hex": "32'shFFFFFFB2",
+      "restored_float": -0.001190185546875,
+      "quantization_error": -6.708132445446121e-06
+    }
+  },
+  "output_parameters": {
+    "fx_out": {
+      "float_value": 354.7577929297721,
+      "decimal": 23249407,
+      "verilog_hex": "32'sh0162C1FF",
+      "restored_float": 354.75779724121094,
+      "quantization_error": 4.311438829063263e-06
+    },
+    "fy_out": {
+      "float_value": 354.7577929297721,
+      "decimal": 23249407,
+      "verilog_hex": "32'sh0162C1FF",
+      "restored_float": 354.75779724121094,
+      "quantization_error": 4.311438829063263e-06
+    },
+    "cx_out": {
+      "float_value": 639.5,
+      "decimal": 41910272,
+      "verilog_hex": "32'sh027F8000",
+      "restored_float": 639.5,
+      "quantization_error": 0.0
+    },
+    "cy_out": {
+      "float_value": 359.49999999999994,
+      "decimal": 23560192,
+      "verilog_hex": "32'sh01678000",
+      "restored_float": 359.5,
+      "quantization_error": 5.684341886080802e-14
+    }
+  },
+  "rectification_rotation": [
+    [
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "roi_cropped": false,
+  "output_horizontal_fov_deg": 122.0,
+  "output_vertical_fov_deg": 90.84042722752157,
+  "source_calibration_run": "20261019_143704_826600",
+  "source_calibration_size": [
+    1920,
+    1080
+  ],
+  "source_training_rms_1080p_px": 1.2376981290896167,
+  "scaled_residual_720p_px": 0.8251320860597445,
+  "scaled_residual_is_new_validation": false,
+  "transform": {
+    "convention": "half_pixel_centers",
+    "source_to_target_matrix": [
+      [
+        0.6666666666666666,
+        0.0,
+        -0.16666666666666666
+      ],
+      [
+        0.0,
+        0.6666666666666666,
+        -0.16666666666666666
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "formula": "u720=(u1080+0.5)*2/3-0.5; v likewise",
+    "resize_chain_verified": false,
+    "crop": false,
+    "padding": false,
+    "assumed_chain": "same full 720p frame enlarged to 1080p"
+  },
+  "orientation": {
+    "calibration": "latest EXIF-aware rotated calibration",
+    "intended_fpga_input": "same orientation as current rotated calibration",
+    "additional_rotation_degrees": 0,
+    "original_user_rotation_degrees": 180,
+    "roll_degrees": 0,
+    "cos": 1,
+    "sin": 0
+  },
+  "validation_status": "offline_references_verified; board_and_capture_scaler_not_verified",
+  "brightness": {
+    "gain_q8": 256,
+    "offset": 0
+  },
+  "compatible_with_legacy_brown_fpga": false,
+  "input_image_size": [
+    1280,
+    720
+  ],
+  "total_bits": 32,
+  "fractional_bits": 16,
+  "fixed_point_format": "signed32 Q16.16",
+  "rounding": "floor(value*65536+0.5)",
+  "all_parameters_fit": true,
+  "output_reciprocals": {
+    "inv_fx_out": {
+      "float_value": 0.0028188246176116,
+      "decimal": 185,
+      "verilog_hex": "32'sh000000B9",
+      "restored_float": 0.0028228759765625,
+      "quantization_error": 4.051358950899961e-06
+    },
+    "inv_fy_out": {
+      "float_value": 0.0028188246176116,
+      "decimal": 185,
+      "verilog_hex": "32'sh000000B9",
+      "restored_float": 0.0028228759765625,
+      "quantization_error": 4.051358950899961e-06
+    }
+  }
+}

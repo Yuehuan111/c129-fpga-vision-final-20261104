@@ -1,0 +1,16 @@
+test_c129_actual_route_mismatch (__main__.MetricsTests.test_c129_actual_route_mismatch) ... ok
+test_counter_wrap_and_reset (__main__.MetricsTests.test_counter_wrap_and_reset) ... ok
+test_export_raw_window_and_mode_split (__main__.MetricsTests.test_export_raw_window_and_mode_split) ... ok
+test_latency_duplicate_no_inflation_and_wrapped (__main__.MetricsTests.test_latency_duplicate_no_inflation_and_wrapped) ... ok
+test_offline (__main__.MetricsTests.test_offline) ... ok
+test_parser_errors_prevent_trust_and_record_window_excludes_prior_v5 (__main__.MetricsTests.test_parser_errors_prevent_trust_and_record_window_excludes_prior_v5) ... ok
+test_percentiles_require_multiple_same_route_version_samples (__main__.MetricsTests.test_percentiles_require_multiple_same_route_version_samples) ... ok
+test_rates_are_board_ticks (__main__.MetricsTests.test_rates_are_board_ticks) ... ok
+test_reject_invalid_and_old_version (__main__.MetricsTests.test_reject_invalid_and_old_version) ... ok
+test_stale_waiting_and_mode (__main__.MetricsTests.test_stale_waiting_and_mode) ... ok
+test_transition_does_not_relabel_prior_sample (__main__.MetricsTests.test_transition_does_not_relabel_prior_sample) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.026s
+
+OK

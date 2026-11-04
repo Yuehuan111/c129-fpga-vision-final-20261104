@@ -1,0 +1,7 @@
+{
+  "schema": "unified_host_preferences_v1",
+  "last_mounting_path": "calibration/IMU_mounting_20261030_new_position_PENDING_VALIDATION.json",
+  "auto_connect": false,
+  "auto_apply_mounting": false,
+  "preview_rotate_180": false
+}

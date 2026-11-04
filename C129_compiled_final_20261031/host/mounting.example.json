@@ -1,0 +1,6 @@
+{
+  "R_IC": [[1, 0, 0], [0, 1, 0], [0, 0, 1]],
+  "convention": "imu_to_world",
+  "confirmed": false,
+  "note": "Example only. Confirm actual camera-to-IMU rotation and quaternion direction by three-axis movement before enabling compensation. Camera ray coordinates: right, down, forward."
+}

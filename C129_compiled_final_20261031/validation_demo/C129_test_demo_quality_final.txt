@@ -1,0 +1,12 @@
+test_build_mismatch_label (__main__.QualityTests.test_build_mismatch_label) ... ok
+test_empty_values_are_pending_and_pds_visible (__main__.QualityTests.test_empty_values_are_pending_and_pds_visible) ... ok
+test_existing_checker_schema (__main__.QualityTests.test_existing_checker_schema) ... ok
+test_existing_edge_schema_and_no_crossing (__main__.QualityTests.test_existing_edge_schema_and_no_crossing) ... ok
+test_existing_manual_schema (__main__.QualityTests.test_existing_manual_schema) ... ok
+test_export_preserves_report_bytes (__main__.QualityTests.test_export_preserves_report_bytes) ... ok
+test_reject_synthetic_unknown_nan_bad_hash (__main__.QualityTests.test_reject_synthetic_unknown_nan_bad_hash) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.065s
+
+OK

@@ -1,0 +1,355 @@
+{
+  "mode_id": "ov5640_dvp_rgb565_wide_1280x720_30_candidate_v1",
+  "hardware_verified": false,
+  "status": "wide720p30_rgb565_candidate_offline_only",
+  "interface": "8-bit DVP sensor D[9:2]",
+  "format": "BGR565 high byte first; FPGA swaps R/B",
+  "width": 1280,
+  "height": 720,
+  "target_new_frames_per_second": 30,
+  "xvclk_hz_assumed_from_module_schematic": 24000000,
+  "candidate_sclk_hz": 42000000,
+  "candidate_pclk_hz": 84000000,
+  "hts": 1892,
+  "vts": 740,
+  "configured_sensor_rate_hz_estimate": 29.9982858122393,
+  "pclk_division": {
+    "method": "vendor automatic",
+    "0x460C": "0x20",
+    "0x3824": "0x04"
+  },
+  "analog_crop": {
+    "x": 0,
+    "y": 250,
+    "width": 2624,
+    "height": 1456
+  },
+  "isp_offset": {
+    "x": 16,
+    "y": 4
+  },
+  "binning": true,
+  "sampling_increments": [
+    "0x31",
+    "0x31"
+  ],
+  "orientation": {
+    "0x3820": "0x47",
+    "0x3821": "0x00",
+    "vflip_bits_preserved": true
+  },
+  "pre_scale_dimensions": [
+    1280,
+    720
+  ],
+  "sensor_scale_ratio": [
+    1,
+    1
+  ],
+  "fpga_upscale_from_720p": false,
+  "reference_capture": {
+    "original_output": [
+      1280,
+      720
+    ],
+    "original_isp_offset": [
+      16,
+      4
+    ],
+    "effective_physical_field_model": {
+      "x": 32,
+      "y": 258,
+      "width": 2560,
+      "height": 1440
+    }
+  },
+  "calibration_basis": "C97 Q16.16 derivative for same field using explicit pixel-center2/3 coordinate conversion; not a new optical calibration.",
+  "warnings": [
+    "Camera dimensions/FOV/colour/84MHz PCLK/nominal30fps require board readback and measurement.",
+    "Source SCLK and DVP byte PCLK are different: frame estimate uses42MHz, not84MHz.",
+    "HDMI720p60 refresh is separate from30 new camera/processed frames per second.",
+    "Vendor SCCB completion does not prove ACK/readback or optical calibration accuracy."
+  ],
+  "register_writes": [
+    {
+      "address": "0x3008",
+      "value": "0x42"
+    },
+    {
+      "address": "0x3017",
+      "value": "0xff"
+    },
+    {
+      "address": "0x3018",
+      "value": "0xff"
+    },
+    {
+      "address": "0x300e",
+      "value": "0x58"
+    },
+    {
+      "address": "0x3034",
+      "value": "0x1a"
+    },
+    {
+      "address": "0x3035",
+      "value": "0x21"
+    },
+    {
+      "address": "0x3036",
+      "value": "0x69"
+    },
+    {
+      "address": "0x3037",
+      "value": "0x13"
+    },
+    {
+      "address": "0x3108",
+      "value": "0x01"
+    },
+    {
+      "address": "0x3820",
+      "value": "0x47"
+    },
+    {
+      "address": "0x3821",
+      "value": "0x00"
+    },
+    {
+      "address": "0x3814",
+      "value": "0x31"
+    },
+    {
+      "address": "0x3815",
+      "value": "0x31"
+    },
+    {
+      "address": "0x3800",
+      "value": "0x00"
+    },
+    {
+      "address": "0x3801",
+      "value": "0x00"
+    },
+    {
+      "address": "0x3802",
+      "value": "0x00"
+    },
+    {
+      "address": "0x3803",
+      "value": "0xfa"
+    },
+    {
+      "address": "0x3804",
+      "value": "0x0a"
+    },
+    {
+      "address": "0x3805",
+      "value": "0x3f"
+    },
+    {
+      "address": "0x3806",
+      "value": "0x06"
+    },
+    {
+      "address": "0x3807",
+      "value": "0xa9"
+    },
+    {
+      "address": "0x3808",
+      "value": "0x05"
+    },
+    {
+      "address": "0x3809",
+      "value": "0x00"
+    },
+    {
+      "address": "0x380a",
+      "value": "0x02"
+    },
+    {
+      "address": "0x380b",
+      "value": "0xd0"
+    },
+    {
+      "address": "0x380c",
+      "value": "0x07"
+    },
+    {
+      "address": "0x380d",
+      "value": "0x64"
+    },
+    {
+      "address": "0x380e",
+      "value": "0x02"
+    },
+    {
+      "address": "0x380f",
+      "value": "0xe4"
+    },
+    {
+      "address": "0x3810",
+      "value": "0x00"
+    },
+    {
+      "address": "0x3811",
+      "value": "0x10"
+    },
+    {
+      "address": "0x3812",
+      "value": "0x00"
+    },
+    {
+      "address": "0x3813",
+      "value": "0x04"
+    },
+    {
+      "address": "0x3618",
+      "value": "0x00"
+    },
+    {
+      "address": "0x3612",
+      "value": "0x29"
+    },
+    {
+      "address": "0x3708",
+      "value": "0x64"
+    },
+    {
+      "address": "0x3709",
+      "value": "0x52"
+    },
+    {
+      "address": "0x370c",
+      "value": "0x03"
+    },
+    {
+      "address": "0x4001",
+      "value": "0x02"
+    },
+    {
+      "address": "0x4004",
+      "value": "0x02"
+    },
+    {
+      "address": "0x4005",
+      "value": "0x1a"
+    },
+    {
+      "address": "0x3002",
+      "value": "0x1c"
+    },
+    {
+      "address": "0x3006",
+      "value": "0xc3"
+    },
+    {
+      "address": "0x4300",
+      "value": "0x60"
+    },
+    {
+      "address": "0x501f",
+      "value": "0x01"
+    },
+    {
+      "address": "0x5000",
+      "value": "0xa7"
+    },
+    {
+      "address": "0x5001",
+      "value": "0x83"
+    },
+    {
+      "address": "0x460b",
+      "value": "0x37"
+    },
+    {
+      "address": "0x460c",
+      "value": "0x20"
+    },
+    {
+      "address": "0x3824",
+      "value": "0x04"
+    },
+    {
+      "address": "0x4740",
+      "value": "0x20"
+    },
+    {
+      "address": "0x4745",
+      "value": "0x00"
+    },
+    {
+      "address": "0x3a00",
+      "value": "0x78"
+    },
+    {
+      "address": "0x3a02",
+      "value": "0x02"
+    },
+    {
+      "address": "0x3a03",
+      "value": "0xe0"
+    },
+    {
+      "address": "0x3a14",
+      "value": "0x02"
+    },
+    {
+      "address": "0x3a15",
+      "value": "0xe0"
+    },
+    {
+      "address": "0x3a08",
+      "value": "0x00"
+    },
+    {
+      "address": "0x3a09",
+      "value": "0x6f"
+    },
+    {
+      "address": "0x3a0a",
+      "value": "0x00"
+    },
+    {
+      "address": "0x3a0b",
+      "value": "0x5c"
+    },
+    {
+      "address": "0x3a0d",
+      "value": "0x08"
+    },
+    {
+      "address": "0x3a0e",
+      "value": "0x06"
+    },
+    {
+      "address": "0x3503",
+      "value": "0x00"
+    },
+    {
+      "address": "0x4201",
+      "value": "0x00"
+    },
+    {
+      "address": "0x4202",
+      "value": "0x00"
+    },
+    {
+      "address": "0x4901",
+      "value": "0x00"
+    },
+    {
+      "address": "0x4902",
+      "value": "0x00"
+    },
+    {
+      "address": "0x503d",
+      "value": "0x00"
+    },
+    {
+      "address": "0x3008",
+      "value": "0x02"
+    }
+  ]
+}

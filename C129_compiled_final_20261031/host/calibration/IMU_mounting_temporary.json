@@ -1,0 +1,22 @@
+{
+  "R_IC": [
+    [
+      -0.995462056028437,
+      -0.002658413940370833,
+      0.09512217324556049
+    ],
+    [
+      -0.0951499638653079,
+      0.01379450116238909,
+      -0.9953673674147206
+    ],
+    [
+      0.0013339355559207828,
+      -0.9999013174173753,
+      -0.013984850479364019
+    ]
+  ],
+  "convention": "imu_to_world",
+  "confirmed": false,
+  "note": "Temporary three-axis coarse fit. Confirm physical directions and image orientation before use."
+}

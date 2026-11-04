@@ -1,0 +1,35 @@
+{
+  "R_IC": [
+    [
+      0.9999507165770016,
+      -0.006505771818824353,
+      0.007499289978541733
+    ],
+    [
+      0.007597080653390158,
+      0.9877062287047764,
+      -0.15613676742949975
+    ],
+    [
+      -0.006391305241243808,
+      0.15618604518595505,
+      0.9877069760341293
+    ]
+  ],
+  "convention": "imu_to_world",
+  "confirmed": false,
+  "note": "Optical/gravity installation calibration, native camera coordinates. Sensor heading inconsistency remains; full attitude correction not validated. Independent validation pending.",
+  "status": "FIT_PASSED_INDEPENDENT_VALIDATION_PENDING",
+  "created_at": "2026-10-30T17:38:40.478267+08:00",
+  "method": "g_I=R_IC R_CB g_B, rotation-only optical/gravity mounting",
+  "fit_rms_deg": 0.3370948996448317,
+  "fit_max_deg": 0.6324157012609187,
+  "leave_one_out_max_mounting_change_deg": 1.9700304431225406,
+  "independent_validation_passed": false,
+  "full_quaternion_validation_passed": false,
+  "imu_yaw_repaired": false,
+  "source_report": "D:\\FPGA_Pangu50K_Demos\\C128_standard_20261030\\host\\captures\\mounting_optical_fixed_20261030\\gravity_fit_20261030_173542_093887\\quality_report.json",
+  "source_report_sha256": "9d4ddf00d9e68e70350b24b3707d7a5eca098244c9d403a9a430561080e0e277",
+  "source_session": "D:\\FPGA_Pangu50K_Demos\\C128_standard_20261030\\host\\captures\\mounting_optical_fixed_20261030",
+  "camera_coordinates": "native raw image right, down, forward; preview rotation excluded"
+}

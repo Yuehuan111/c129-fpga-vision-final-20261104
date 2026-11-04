@@ -1,0 +1,48 @@
+{
+  "schema": "c129_delivery_validation_v1",
+  "date": "2026-11-03",
+  "preview_field_of_view_percent": 100,
+  "quality_display_rows": [
+    [
+      "原图直线度（离线）",
+      "整体 RMS 2.201 px"
+    ],
+    [
+      "原图近似 MTF50（离线）",
+      "0.3468 cycles/pixel"
+    ],
+    [
+      "矫正后直线度（离线）",
+      "整体 RMS 0.282 px"
+    ],
+    [
+      "矫正后近似 MTF50（离线）",
+      "0.3269 cycles/pixel"
+    ]
+  ],
+  "footer_hidden": true,
+  "python_syntax_checks": "PASS",
+  "current_python_files_sha256": {
+    "demo_app.py": "80b0c49ae854da97230edf638d8b54f2dc33a41bf1d5417f8151e4647f0e4428",
+    "demo_metrics.py": "03a5e32adbbfaf7634ffcd1ff873c646c0a8435f009be670a54a5da3747a22ed",
+    "demo_quality_bundle.py": "a039fce0566181a6002f7a22ae11145fccb74f32a7894e3f1d4b4c37edf8bb26",
+    "unified_video.py": "427d61b2db9a1259522d292e1caf9284e1fcf86c2c17347eb61caec0cfbd7c0f"
+  },
+  "quality_evidence_assets_verified": 12,
+  "original_evidence_archives_sha256": [
+    {
+      "filename": "C129_指标提交材料_20261102.zip",
+      "sha256": "3cf9a3b207f99724a86e570fd5a351dbb3b69a916ead1a7c7836176ca8325e82"
+    },
+    {
+      "filename": "C129_清晰度复测_队友资料_20261103.zip",
+      "sha256": "5559ac285ca276e1015fa928997a11641726bc6769b2bebe5c13aa85a88eb7a6"
+    }
+  ],
+  "bitstream": {
+    "filename": "C129_720p_cmos1.sbit",
+    "sha256": "05e481e5a7d8225ae4674b7eb663abaff53b81d422853b4e1ba21a1f34db04fc",
+    "note": "Existing compiled PDS bitstream, unchanged by current host UI edits; not recompiled or newly board-tested during packaging."
+  },
+  "scope": "Packaging verification of existing source and evidence, not a new hardware measurement."
+}

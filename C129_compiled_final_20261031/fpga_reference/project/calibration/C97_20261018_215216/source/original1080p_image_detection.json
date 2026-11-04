@@ -1,0 +1,600 @@
+{
+  "board_inner_corners": [
+    10,
+    5
+  ],
+  "expected_image_size": [
+    1920,
+    1080
+  ],
+  "accepted_images": [
+    "Screenshot 2026-10-11 21-29-31.png",
+    "Screenshot 2026-10-11 21-29-43.png",
+    "Screenshot 2026-10-11 21-29-57.png",
+    "Screenshot 2026-10-11 21-30-13.png",
+    "Screenshot 2026-10-11 21-30-20.png",
+    "Screenshot 2026-10-11 21-30-28.png",
+    "Screenshot 2026-10-11 21-30-46.png",
+    "Screenshot 2026-10-11 21-30-51.png",
+    "Screenshot 2026-10-11 21-32-23.png",
+    "Screenshot 2026-10-11 21-32-31.png",
+    "Screenshot 2026-10-11 21-32-35.png",
+    "Screenshot 2026-10-11 21-32-40.png",
+    "Screenshot 2026-10-11 21-32-46.png",
+    "Screenshot 2026-10-11 21-32-50.png",
+    "Screenshot 2026-10-11 21-32-54.png",
+    "Screenshot 2026-10-11 21-32-58.png",
+    "Screenshot 2026-10-11 21-33-04.png",
+    "Screenshot 2026-10-11 21-33-08.png",
+    "Screenshot 2026-10-11 21-33-14.png",
+    "Screenshot 2026-10-11 21-33-23.png",
+    "Screenshot 2026-10-11 21-33-35.png",
+    "Screenshot 2026-10-11 21-33-39.png",
+    "Screenshot 2026-10-11 21-33-43.png",
+    "Screenshot 2026-10-11 21-33-52.png",
+    "Screenshot 2026-10-11 21-34-02.png",
+    "Screenshot 2026-10-11 21-34-16.png",
+    "Screenshot 2026-10-11 21-34-57.png",
+    "Screenshot 2026-10-11 21-35-17.png",
+    "Screenshot 2026-10-11 21-35-22.png",
+    "Screenshot 2026-10-11 21-36-10.png",
+    "WIN_20261014_21_12_40_Pro.jpg",
+    "WIN_20261014_21_13_51_Pro.jpg",
+    "WIN_20261014_21_14_28_Pro.jpg",
+    "WIN_20261014_21_14_36_Pro.jpg",
+    "WIN_20261014_21_14_54_Pro.jpg",
+    "WIN_20261014_21_15_00_Pro.jpg",
+    "WIN_20261014_21_15_29_Pro.jpg",
+    "WIN_20261014_21_15_41_Pro.jpg",
+    "WIN_20261014_21_15_53_Pro.jpg",
+    "WIN_20261014_21_15_58_Pro.jpg",
+    "WIN_20261014_21_16_06_Pro.jpg",
+    "WIN_20261014_21_16_15_Pro.jpg",
+    "WIN_20261014_21_16_38_Pro.jpg",
+    "WIN_20261014_21_16_49_Pro.jpg",
+    "WIN_20261014_21_17_00_Pro.jpg",
+    "WIN_20261014_21_17_14_Pro.jpg",
+    "WIN_20261014_21_18_09_Pro.jpg",
+    "WIN_20261014_21_19_54_Pro.jpg",
+    "WIN_20261014_21_20_02_Pro.jpg",
+    "WIN_20261014_21_20_13_Pro.jpg",
+    "WIN_20261014_21_20_19_Pro.jpg",
+    "WIN_20261014_21_20_22_Pro.jpg",
+    "WIN_20261014_21_20_25_Pro.jpg",
+    "WIN_20261014_21_20_28_Pro.jpg",
+    "WIN_20261014_21_20_31_Pro.jpg",
+    "WIN_20261016_21_48_43_Pro.jpg",
+    "WIN_20261016_21_48_58_Pro.jpg",
+    "WIN_20261016_21_49_51_Pro.jpg",
+    "WIN_20261016_21_50_13_Pro.jpg",
+    "WIN_20261016_21_50_57_Pro.jpg",
+    "WIN_20261016_21_51_02_Pro.jpg",
+    "WIN_20261016_21_51_04_Pro.jpg",
+    "WIN_20261016_21_51_07_Pro.jpg",
+    "WIN_20261016_21_51_10_Pro.jpg",
+    "WIN_20261016_21_51_14_Pro.jpg",
+    "WIN_20261016_21_51_45_Pro.jpg",
+    "WIN_20261016_21_52_06_Pro.jpg",
+    "WIN_20261016_21_52_10_Pro.jpg",
+    "WIN_20261016_22_19_55_Pro.jpg",
+    "WIN_20261016_22_21_27_Pro.jpg",
+    "WIN_20261016_22_21_35_Pro.jpg",
+    "WIN_20261016_22_23_13_Pro.jpg",
+    "WIN_20261016_22_23_17_Pro.jpg",
+    "WIN_20261016_22_23_39_Pro.jpg",
+    "WIN_20261016_22_23_42_Pro.jpg",
+    "WIN_20261016_22_32_49_Pro.jpg",
+    "WIN_20261016_22_33_02_Pro.jpg",
+    "WIN_20261016_22_33_28_Pro.jpg",
+    "WIN_20261016_22_33_43_Pro.jpg",
+    "WIN_20261016_22_33_52_Pro.jpg",
+    "WIN_20261016_22_34_10_Pro.jpg",
+    "WIN_20261016_22_34_24_Pro.jpg",
+    "WIN_20261016_22_34_25_Pro.jpg",
+    "WIN_20261016_22_47_18_Pro.jpg",
+    "WIN_20261016_22_47_55_Pro.jpg",
+    "WIN_20261016_22_47_59_Pro.jpg",
+    "WIN_20261016_22_48_19_Pro.jpg",
+    "WIN_20261016_22_48_21_Pro.jpg",
+    "WIN_20261016_22_48_38_Pro.jpg",
+    "WIN_20261016_22_51_39_Pro.jpg",
+    "WIN_20261016_22_51_45_Pro.jpg",
+    "WIN_20261016_22_51_50_Pro.jpg",
+    "WIN_20261016_22_51_53_Pro.jpg",
+    "WIN_20261016_22_51_55_Pro.jpg",
+    "WIN_20261016_22_52_04_Pro.jpg",
+    "WIN_20261016_22_52_16_Pro.jpg",
+    "WIN_20261016_22_52_24_Pro.jpg"
+  ],
+  "rejected_images": [],
+  "detections": [
+    {
+      "file": "Screenshot 2026-10-11 21-29-31.png",
+      "found": true,
+      "method": "sb_original"
+    },
+    {
+      "file": "Screenshot 2026-10-11 21-29-43.png",
+      "found": true,
+      "method": "sb_original"
+    },
+    {
+      "file": "Screenshot 2026-10-11 21-29-57.png",
+      "found": true,
+      "method": "sb_original"
+    },
+    {
+      "file": "Screenshot 2026-10-11 21-30-13.png",
+      "found": true,
+      "method": "sb_original"
+    },
+    {
+      "file": "Screenshot 2026-10-11 21-30-20.png",
+      "found": true,
+      "method": "sb_original"
+    },
+    {
+      "file": "Screenshot 2026-10-11 21-30-28.png",
+      "found": true,
+      "method": "sb_original"
+    },
+    {
+      "file": "Screenshot 2026-10-11 21-30-46.png",
+      "found": true,
+      "method": "sb_original"
+    },
+    {
+      "file": "Screenshot 2026-10-11 21-30-51.png",
+      "found": true,
+      "method": "sb_original"
+    },
+    {
+      "file": "Screenshot 2026-10-11 21-32-23.png",
+      "found": true,
+      "method": "sb_original"
+    },
+    {
+      "file": "Screenshot 2026-10-11 21-32-31.png",
+      "found": true,
+      "method": "sb_original"
+    },
+    {
+      "file": "Screenshot 2026-10-11 21-32-35.png",
+      "found": true,
+      "method": "sb_original"
+    },
+    {
+      "file": "Screenshot 2026-10-11 21-32-40.png",
+      "found": true,
+      "method": "sb_original"
+    },
+    {
+      "file": "Screenshot 2026-10-11 21-32-46.png",
+      "found": true,
+      "method": "sb_original"
+    },
+    {
+      "file": "Screenshot 2026-10-11 21-32-50.png",
+      "found": true,
+      "method": "sb_original"
+    },
+    {
+      "file": "Screenshot 2026-10-11 21-32-54.png",
+      "found": true,
+      "method": "sb_original"
+    },
+    {
+      "file": "Screenshot 2026-10-11 21-32-58.png",
+      "found": true,
+      "method": "sb_original"
+    },
+    {
+      "file": "Screenshot 2026-10-11 21-33-04.png",
+      "found": true,
+      "method": "sb_original"
+    },
+    {
+      "file": "Screenshot 2026-10-11 21-33-08.png",
+      "found": true,
+      "method": "sb_original"
+    },
+    {
+      "file": "Screenshot 2026-10-11 21-33-14.png",
+      "found": true,
+      "method": "sb_original"
+    },
+    {
+      "file": "Screenshot 2026-10-11 21-33-23.png",
+      "found": true,
+      "method": "sb_original"
+    },
+    {
+      "file": "Screenshot 2026-10-11 21-33-35.png",
+      "found": true,
+      "method": "sb_original"
+    },
+    {
+      "file": "Screenshot 2026-10-11 21-33-39.png",
+      "found": true,
+      "method": "sb_original"
+    },
+    {
+      "file": "Screenshot 2026-10-11 21-33-43.png",
+      "found": true,
+      "method": "sb_original"
+    },
+    {
+      "file": "Screenshot 2026-10-11 21-33-52.png",
+      "found": true,
+      "method": "sb_original"
+    },
+    {
+      "file": "Screenshot 2026-10-11 21-34-02.png",
+      "found": true,
+      "method": "sb_original"
+    },
+    {
+      "file": "Screenshot 2026-10-11 21-34-16.png",
+      "found": true,
+      "method": "sb_original"
+    },
+    {
+      "file": "Screenshot 2026-10-11 21-34-57.png",
+      "found": true,
+      "method": "sb_original"
+    },
+    {
+      "file": "Screenshot 2026-10-11 21-35-17.png",
+      "found": true,
+      "method": "sb_original"
+    },
+    {
+      "file": "Screenshot 2026-10-11 21-35-22.png",
+      "found": true,
+      "method": "sb_original"
+    },
+    {
+      "file": "Screenshot 2026-10-11 21-36-10.png",
+      "found": true,
+      "method": "sb_original"
+    },
+    {
+      "file": "WIN_20261014_21_12_40_Pro.jpg",
+      "found": true,
+      "method": "sb_original"
+    },
+    {
+      "file": "WIN_20261014_21_13_51_Pro.jpg",
+      "found": true,
+      "method": "sb_original"
+    },
+    {
+      "file": "WIN_20261014_21_14_28_Pro.jpg",
+      "found": true,
+      "method": "sb_original"
+    },
+    {
+      "file": "WIN_20261014_21_14_36_Pro.jpg",
+      "found": true,
+      "method": "sb_half_exhaustive"
+    },
+    {
+      "file": "WIN_20261014_21_14_54_Pro.jpg",
+      "found": true,
+      "method": "sb_original"
+    },
+    {
+      "file": "WIN_20261014_21_15_00_Pro.jpg",
+      "found": true,
+      "method": "sb_original"
+    },
+    {
+      "file": "WIN_20261014_21_15_29_Pro.jpg",
+      "found": true,
+      "method": "sb_original"
+    },
+    {
+      "file": "WIN_20261014_21_15_41_Pro.jpg",
+      "found": true,
+      "method": "sb_original"
+    },
+    {
+      "file": "WIN_20261014_21_15_53_Pro.jpg",
+      "found": true,
+      "method": "sb_original"
+    },
+    {
+      "file": "WIN_20261014_21_15_58_Pro.jpg",
+      "found": true,
+      "method": "sb_original"
+    },
+    {
+      "file": "WIN_20261014_21_16_06_Pro.jpg",
+      "found": true,
+      "method": "sb_original"
+    },
+    {
+      "file": "WIN_20261014_21_16_15_Pro.jpg",
+      "found": true,
+      "method": "sb_original"
+    },
+    {
+      "file": "WIN_20261014_21_16_38_Pro.jpg",
+      "found": true,
+      "method": "sb_original"
+    },
+    {
+      "file": "WIN_20261014_21_16_49_Pro.jpg",
+      "found": true,
+      "method": "sb_original"
+    },
+    {
+      "file": "WIN_20261014_21_17_00_Pro.jpg",
+      "found": true,
+      "method": "sb_original"
+    },
+    {
+      "file": "WIN_20261014_21_17_14_Pro.jpg",
+      "found": true,
+      "method": "sb_original"
+    },
+    {
+      "file": "WIN_20261014_21_18_09_Pro.jpg",
+      "found": true,
+      "method": "sb_original"
+    },
+    {
+      "file": "WIN_20261014_21_19_54_Pro.jpg",
+      "found": true,
+      "method": "sb_original"
+    },
+    {
+      "file": "WIN_20261014_21_20_02_Pro.jpg",
+      "found": true,
+      "method": "sb_original"
+    },
+    {
+      "file": "WIN_20261014_21_20_13_Pro.jpg",
+      "found": true,
+      "method": "sb_original"
+    },
+    {
+      "file": "WIN_20261014_21_20_19_Pro.jpg",
+      "found": true,
+      "method": "sb_original"
+    },
+    {
+      "file": "WIN_20261014_21_20_22_Pro.jpg",
+      "found": true,
+      "method": "sb_original"
+    },
+    {
+      "file": "WIN_20261014_21_20_25_Pro.jpg",
+      "found": true,
+      "method": "sb_original"
+    },
+    {
+      "file": "WIN_20261014_21_20_28_Pro.jpg",
+      "found": true,
+      "method": "sb_original"
+    },
+    {
+      "file": "WIN_20261014_21_20_31_Pro.jpg",
+      "found": true,
+      "method": "sb_original"
+    },
+    {
+      "file": "WIN_20261016_21_48_43_Pro.jpg",
+      "found": true,
+      "method": "sb_original"
+    },
+    {
+      "file": "WIN_20261016_21_48_58_Pro.jpg",
+      "found": true,
+      "method": "sb_original"
+    },
+    {
+      "file": "WIN_20261016_21_49_51_Pro.jpg",
+      "found": true,
+      "method": "sb_original"
+    },
+    {
+      "file": "WIN_20261016_21_50_13_Pro.jpg",
+      "found": true,
+      "method": "sb_original"
+    },
+    {
+      "file": "WIN_20261016_21_50_57_Pro.jpg",
+      "found": true,
+      "method": "sb_half_exhaustive"
+    },
+    {
+      "file": "WIN_20261016_21_51_02_Pro.jpg",
+      "found": true,
+      "method": "sb_original"
+    },
+    {
+      "file": "WIN_20261016_21_51_04_Pro.jpg",
+      "found": true,
+      "method": "sb_original"
+    },
+    {
+      "file": "WIN_20261016_21_51_07_Pro.jpg",
+      "found": true,
+      "method": "sb_original"
+    },
+    {
+      "file": "WIN_20261016_21_51_10_Pro.jpg",
+      "found": true,
+      "method": "sb_original"
+    },
+    {
+      "file": "WIN_20261016_21_51_14_Pro.jpg",
+      "found": true,
+      "method": "sb_original"
+    },
+    {
+      "file": "WIN_20261016_21_51_45_Pro.jpg",
+      "found": true,
+      "method": "classic_subpixel"
+    },
+    {
+      "file": "WIN_20261016_21_52_06_Pro.jpg",
+      "found": true,
+      "method": "sb_original"
+    },
+    {
+      "file": "WIN_20261016_21_52_10_Pro.jpg",
+      "found": true,
+      "method": "sb_original"
+    },
+    {
+      "file": "WIN_20261016_22_19_55_Pro.jpg",
+      "found": true,
+      "method": "sb_original"
+    },
+    {
+      "file": "WIN_20261016_22_21_27_Pro.jpg",
+      "found": true,
+      "method": "sb_original"
+    },
+    {
+      "file": "WIN_20261016_22_21_35_Pro.jpg",
+      "found": true,
+      "method": "sb_original"
+    },
+    {
+      "file": "WIN_20261016_22_23_13_Pro.jpg",
+      "found": true,
+      "method": "sb_original"
+    },
+    {
+      "file": "WIN_20261016_22_23_17_Pro.jpg",
+      "found": true,
+      "method": "sb_original"
+    },
+    {
+      "file": "WIN_20261016_22_23_39_Pro.jpg",
+      "found": true,
+      "method": "sb_original"
+    },
+    {
+      "file": "WIN_20261016_22_23_42_Pro.jpg",
+      "found": true,
+      "method": "sb_original"
+    },
+    {
+      "file": "WIN_20261016_22_32_49_Pro.jpg",
+      "found": true,
+      "method": "sb_original"
+    },
+    {
+      "file": "WIN_20261016_22_33_02_Pro.jpg",
+      "found": true,
+      "method": "sb_original"
+    },
+    {
+      "file": "WIN_20261016_22_33_28_Pro.jpg",
+      "found": true,
+      "method": "sb_original"
+    },
+    {
+      "file": "WIN_20261016_22_33_43_Pro.jpg",
+      "found": true,
+      "method": "sb_original"
+    },
+    {
+      "file": "WIN_20261016_22_33_52_Pro.jpg",
+      "found": true,
+      "method": "sb_original"
+    },
+    {
+      "file": "WIN_20261016_22_34_10_Pro.jpg",
+      "found": true,
+      "method": "sb_original"
+    },
+    {
+      "file": "WIN_20261016_22_34_24_Pro.jpg",
+      "found": true,
+      "method": "sb_original"
+    },
+    {
+      "file": "WIN_20261016_22_34_25_Pro.jpg",
+      "found": true,
+      "method": "sb_original"
+    },
+    {
+      "file": "WIN_20261016_22_47_18_Pro.jpg",
+      "found": true,
+      "method": "sb_original"
+    },
+    {
+      "file": "WIN_20261016_22_47_55_Pro.jpg",
+      "found": true,
+      "method": "sb_original"
+    },
+    {
+      "file": "WIN_20261016_22_47_59_Pro.jpg",
+      "found": true,
+      "method": "sb_original"
+    },
+    {
+      "file": "WIN_20261016_22_48_19_Pro.jpg",
+      "found": true,
+      "method": "sb_half_exhaustive"
+    },
+    {
+      "file": "WIN_20261016_22_48_21_Pro.jpg",
+      "found": true,
+      "method": "sb_original"
+    },
+    {
+      "file": "WIN_20261016_22_48_38_Pro.jpg",
+      "found": true,
+      "method": "sb_original"
+    },
+    {
+      "file": "WIN_20261016_22_51_39_Pro.jpg",
+      "found": true,
+      "method": "sb_original"
+    },
+    {
+      "file": "WIN_20261016_22_51_45_Pro.jpg",
+      "found": true,
+      "method": "sb_original"
+    },
+    {
+      "file": "WIN_20261016_22_51_50_Pro.jpg",
+      "found": true,
+      "method": "sb_half_exhaustive"
+    },
+    {
+      "file": "WIN_20261016_22_51_53_Pro.jpg",
+      "found": true,
+      "method": "sb_original"
+    },
+    {
+      "file": "WIN_20261016_22_51_55_Pro.jpg",
+      "found": true,
+      "method": "sb_original"
+    },
+    {
+      "file": "WIN_20261016_22_52_04_Pro.jpg",
+      "found": true,
+      "method": "sb_half_exhaustive"
+    },
+    {
+      "file": "WIN_20261016_22_52_16_Pro.jpg",
+      "found": true,
+      "method": "sb_original"
+    },
+    {
+      "file": "WIN_20261016_22_52_24_Pro.jpg",
+      "found": true,
+      "method": "sb_original"
+    }
+  ],
+  "accepted_count": 97,
+  "total_count": 97,
+  "note": "检测成功不代表标定合格；必须使用平整硬板，检查角点和独立验证。"
+}

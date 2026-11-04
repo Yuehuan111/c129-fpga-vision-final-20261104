@@ -1,0 +1,48 @@
+{
+  "model": "fisheye4_then_tangential2_joint_intrinsics",
+  "status": "explicit720p_coordinate_derivative_not_new_calibration",
+  "matches_current_sensor_profile": false,
+  "user_authorized_assumption": true,
+  "declared_sensor_mode": "ov5640_dvp_rgb565_wide_1280x720_30_candidate_v1",
+  "expected_analog_crop": {
+    "x": 0,
+    "y": 250,
+    "width": 2624,
+    "height": 1456
+  },
+  "source_image_size": [
+    1920,
+    1080
+  ],
+  "derived_image_size": [
+    1280,
+    720
+  ],
+  "coordinate_rule": "p720=(p1080+0.5)*2/3-0.5",
+  "new_calibration_measurement": false,
+  "source_calibration": {
+    "path": "calibration/C97_joint_720p/source/joint_calibration_report.json",
+    "sha256": "acc1e7141ac6baef4c3ff17734b0c67c28f9a9f4faa8fcb421c87a1a32bf9891"
+  },
+  "derived_calibration": {
+    "path": "calibration/C97_joint_720p/calibration.json",
+    "sha256": "bc88064904e5b7813d5be9fef5018fc052fd5411ababe7e41ff2ae1804e6c840"
+  },
+  "FPGA_algorithm_unchanged": false,
+  "note": "All K/D/p jointly refitted from existing 97 views. Native 1080 points derived with half-pixel centers to720. FPGA adds tangential after fisheye normalized radial coordinates before source K. Camera window, orientation and optical benefit have not been newly measured.",
+  "optical_match_verified": false,
+  "board_orientation_verified": false,
+  "source_calibration_run": "C97_joint_20261021",
+  "source_is_refitted_calibration": true,
+  "source_training_rms_1080p_px": 1.23573832,
+  "parameter_handoff": {
+    "path": "calibration/C97_joint_720p/source/parameters_joint_1280x720_q16_16.json",
+    "sha256": "02063a77480d21785968b61ae5a5e9f820adff72572fc71fe61b3464db7dff0e"
+  },
+  "user_selected_joint_candidate": true,
+  "tangential_q16": [
+    -13,
+    18
+  ],
+  "tangential_plane": "After fisheye normalized radial coordinates, before source K"
+}

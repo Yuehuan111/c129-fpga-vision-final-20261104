@@ -1,0 +1,2066 @@
+{
+  "sharpness": {
+    "1": {
+      "tested_rois": 20,
+      "accepted_rois": 17,
+      "rois_with_measured_mtf50": 12,
+      "accepted_without_50_percent_crossing": 5,
+      "common_edge_count": 6,
+      "common_edges": [
+        "BL_bottom",
+        "BL_top",
+        "C_bottom",
+        "C_top",
+        "TL_bottom",
+        "TL_top"
+      ],
+      "common_edge_median_mtf50_cyc_per_px": 0.32692058824360476,
+      "common_edge_mean_mtf50_cyc_per_px": 0.33065407621402837,
+      "common_edge_mtf50_range": [
+        0.27041508713306944,
+        0.39873702729133365
+      ],
+      "common_edge_median_linear_assumption": 0.32750297549636853
+    },
+    "2": {
+      "tested_rois": 20,
+      "accepted_rois": 15,
+      "rois_with_measured_mtf50": 6,
+      "accepted_without_50_percent_crossing": 9,
+      "common_edge_count": 6,
+      "common_edges": [
+        "BL_bottom",
+        "BL_top",
+        "C_bottom",
+        "C_top",
+        "TL_bottom",
+        "TL_top"
+      ],
+      "common_edge_median_mtf50_cyc_per_px": 0.3467558831685733,
+      "common_edge_mean_mtf50_cyc_per_px": 0.3413201582303544,
+      "common_edge_mtf50_range": [
+        0.27047997430430337,
+        0.3927787848818656
+      ],
+      "common_edge_median_linear_assumption": 0.3327215927492221
+    }
+  },
+  "sharpness_roi_details": {
+    "1": [
+      {
+        "image_number": 1,
+        "label": "TL_top",
+        "axis": "horizontal",
+        "roi_xywh": [
+          439,
+          218,
+          56,
+          40
+        ],
+        "block_corners": [
+          [
+            433,
+            239
+          ],
+          [
+            501,
+            236
+          ],
+          [
+            507,
+            301
+          ],
+          [
+            439,
+            305
+          ]
+        ],
+        "transfer": "srgb_assumed_not_measured",
+        "status": "accepted",
+        "measurement": {
+          "measurement": "approximate_slanted_edge_sfr",
+          "iso_certified": false,
+          "axis": "horizontal",
+          "angle_from_axis_degrees": -2.8878152951662375,
+          "fit_rms_pixels": 0.1396220653121782,
+          "rows_used": 56,
+          "rows_total": 56,
+          "polarity_reversed": true,
+          "linear_contrast": 0.398214833496779,
+          "oversample": 4,
+          "esf_half_width_pixels": 16.25,
+          "empty_bin_fraction": 0.0,
+          "frequency_units": "cycles_per_pixel_along_edge_normal",
+          "mtf50_cycles_per_pixel": 0.30369579814598063,
+          "mtf50_status": "measured",
+          "mtf_at_nyquist": 0.06473407535123431,
+          "warnings": [
+            "Approximate edge SFR, not ISO-certified; chart/ISP/noise/window biases remain."
+          ]
+        },
+        "linear_assumption_sensitivity": 0.29235257811977716
+      },
+      {
+        "image_number": 1,
+        "label": "TL_right",
+        "axis": "vertical",
+        "roi_xywh": [
+          484,
+          242,
+          40,
+          53
+        ],
+        "block_corners": [
+          [
+            433,
+            239
+          ],
+          [
+            501,
+            236
+          ],
+          [
+            507,
+            301
+          ],
+          [
+            439,
+            305
+          ]
+        ],
+        "transfer": "srgb_assumed_not_measured",
+        "status": "accepted",
+        "measurement": {
+          "measurement": "approximate_slanted_edge_sfr",
+          "iso_certified": false,
+          "axis": "vertical",
+          "angle_from_axis_degrees": 5.620570982131183,
+          "fit_rms_pixels": 0.14905388666812758,
+          "rows_used": 53,
+          "rows_total": 53,
+          "polarity_reversed": false,
+          "linear_contrast": 0.3839610769173893,
+          "oversample": 4,
+          "esf_half_width_pixels": 14.5,
+          "empty_bin_fraction": 0.0,
+          "frequency_units": "cycles_per_pixel_along_edge_normal",
+          "mtf50_cycles_per_pixel": 0.4822704367385088,
+          "mtf50_status": "measured",
+          "mtf_at_nyquist": 0.4673872769542508,
+          "warnings": [
+            "Approximate edge SFR, not ISO-certified; chart/ISP/noise/window biases remain.",
+            "SFR exceeds 1.05; inspect sharpening, ringing, noise, or ROI suitability."
+          ]
+        },
+        "linear_assumption_sensitivity": 0.40182724717641816
+      },
+      {
+        "image_number": 1,
+        "label": "TL_bottom",
+        "axis": "horizontal",
+        "roi_xywh": [
+          445,
+          283,
+          56,
+          40
+        ],
+        "block_corners": [
+          [
+            433,
+            239
+          ],
+          [
+            501,
+            236
+          ],
+          [
+            507,
+            301
+          ],
+          [
+            439,
+            305
+          ]
+        ],
+        "transfer": "srgb_assumed_not_measured",
+        "status": "accepted",
+        "measurement": {
+          "measurement": "approximate_slanted_edge_sfr",
+          "iso_certified": false,
+          "axis": "horizontal",
+          "angle_from_axis_degrees": -3.4743232467431975,
+          "fit_rms_pixels": 0.12387762952552672,
+          "rows_used": 56,
+          "rows_total": 56,
+          "polarity_reversed": false,
+          "linear_contrast": 0.3735570612999672,
+          "oversample": 4,
+          "esf_half_width_pixels": 15.5,
+          "empty_bin_fraction": 0.0,
+          "frequency_units": "cycles_per_pixel_along_edge_normal",
+          "mtf50_cycles_per_pixel": 0.31634325833740834,
+          "mtf50_status": "measured",
+          "mtf_at_nyquist": 0.11102708825574358,
+          "warnings": [
+            "Approximate edge SFR, not ISO-certified; chart/ISP/noise/window biases remain."
+          ]
+        },
+        "linear_assumption_sensitivity": 0.3127785433995397
+      },
+      {
+        "image_number": 1,
+        "label": "TL_left",
+        "axis": "vertical",
+        "roi_xywh": [
+          416,
+          245,
+          40,
+          54
+        ],
+        "block_corners": [
+          [
+            433,
+            239
+          ],
+          [
+            501,
+            236
+          ],
+          [
+            507,
+            301
+          ],
+          [
+            439,
+            305
+          ]
+        ],
+        "transfer": "srgb_assumed_not_measured",
+        "status": "accepted",
+        "measurement": {
+          "measurement": "approximate_slanted_edge_sfr",
+          "iso_certified": false,
+          "axis": "vertical",
+          "angle_from_axis_degrees": 5.938666456884509,
+          "fit_rms_pixels": 0.13205317100718553,
+          "rows_used": 54,
+          "rows_total": 54,
+          "polarity_reversed": true,
+          "linear_contrast": 0.33004249696904653,
+          "oversample": 4,
+          "esf_half_width_pixels": 15.25,
+          "empty_bin_fraction": 0.0,
+          "frequency_units": "cycles_per_pixel_along_edge_normal",
+          "mtf50_cycles_per_pixel": 0.4007645327571518,
+          "mtf50_status": "measured",
+          "mtf_at_nyquist": 0.4860212395030575,
+          "warnings": [
+            "Approximate edge SFR, not ISO-certified; chart/ISP/noise/window biases remain.",
+            "SFR exceeds 1.05; inspect sharpening, ringing, noise, or ROI suitability."
+          ]
+        },
+        "linear_assumption_sensitivity": 0.34926635835655456
+      },
+      {
+        "image_number": 1,
+        "label": "TR_top",
+        "axis": "horizontal",
+        "roi_xywh": [
+          787,
+          228,
+          48,
+          40
+        ],
+        "block_corners": [
+          [
+            781,
+            250
+          ],
+          [
+            841,
+            246
+          ],
+          [
+            845,
+            307
+          ],
+          [
+            786,
+            311
+          ]
+        ],
+        "transfer": "srgb_assumed_not_measured",
+        "status": "accepted",
+        "measurement": {
+          "measurement": "approximate_slanted_edge_sfr",
+          "iso_certified": false,
+          "axis": "horizontal",
+          "angle_from_axis_degrees": -3.8963864432677067,
+          "fit_rms_pixels": 0.08716882385807467,
+          "rows_used": 48,
+          "rows_total": 48,
+          "polarity_reversed": true,
+          "linear_contrast": 0.42459551770413295,
+          "oversample": 4,
+          "esf_half_width_pixels": 16.5,
+          "empty_bin_fraction": 0.0,
+          "frequency_units": "cycles_per_pixel_along_edge_normal",
+          "mtf50_cycles_per_pixel": 0.304186635883894,
+          "mtf50_status": "measured",
+          "mtf_at_nyquist": 0.13324256358869432,
+          "warnings": [
+            "Approximate edge SFR, not ISO-certified; chart/ISP/noise/window biases remain."
+          ]
+        },
+        "linear_assumption_sensitivity": 0.27631275650359194
+      },
+      {
+        "image_number": 1,
+        "label": "TR_right",
+        "axis": "vertical",
+        "roi_xywh": [
+          823,
+          252,
+          40,
+          49
+        ],
+        "block_corners": [
+          [
+            781,
+            250
+          ],
+          [
+            841,
+            246
+          ],
+          [
+            845,
+            307
+          ],
+          [
+            786,
+            311
+          ]
+        ],
+        "transfer": "srgb_assumed_not_measured",
+        "status": "accepted",
+        "measurement": {
+          "measurement": "approximate_slanted_edge_sfr",
+          "iso_certified": false,
+          "axis": "vertical",
+          "angle_from_axis_degrees": 4.807206950884206,
+          "fit_rms_pixels": 0.21777419423991487,
+          "rows_used": 49,
+          "rows_total": 49,
+          "polarity_reversed": false,
+          "linear_contrast": 0.3695965962448947,
+          "oversample": 4,
+          "esf_half_width_pixels": 15.0,
+          "empty_bin_fraction": 0.0,
+          "frequency_units": "cycles_per_pixel_along_edge_normal",
+          "mtf50_cycles_per_pixel": 0.4235421932610237,
+          "mtf50_status": "measured",
+          "mtf_at_nyquist": 0.4218820064657677,
+          "warnings": [
+            "Approximate edge SFR, not ISO-certified; chart/ISP/noise/window biases remain.",
+            "SFR exceeds 1.05; inspect sharpening, ringing, noise, or ROI suitability."
+          ]
+        },
+        "linear_assumption_sensitivity": 0.34057953121285006
+      },
+      {
+        "image_number": 1,
+        "label": "TR_bottom",
+        "axis": "horizontal",
+        "roi_xywh": [
+          792,
+          289,
+          47,
+          40
+        ],
+        "block_corners": [
+          [
+            781,
+            250
+          ],
+          [
+            841,
+            246
+          ],
+          [
+            845,
+            307
+          ],
+          [
+            786,
+            311
+          ]
+        ],
+        "transfer": "srgb_assumed_not_measured",
+        "status": "rejected",
+        "reason": "ROI needs >=32 pixels across and >=48 pixels along the edge"
+      },
+      {
+        "image_number": 1,
+        "label": "TR_left",
+        "axis": "vertical",
+        "roi_xywh": [
+          764,
+          256,
+          40,
+          49
+        ],
+        "block_corners": [
+          [
+            781,
+            250
+          ],
+          [
+            841,
+            246
+          ],
+          [
+            845,
+            307
+          ],
+          [
+            786,
+            311
+          ]
+        ],
+        "transfer": "srgb_assumed_not_measured",
+        "status": "accepted",
+        "measurement": {
+          "measurement": "approximate_slanted_edge_sfr",
+          "iso_certified": false,
+          "axis": "vertical",
+          "angle_from_axis_degrees": 4.830097417957401,
+          "fit_rms_pixels": 0.1814982740688197,
+          "rows_used": 49,
+          "rows_total": 49,
+          "polarity_reversed": true,
+          "linear_contrast": 0.4161548603904648,
+          "oversample": 4,
+          "esf_half_width_pixels": 15.75,
+          "empty_bin_fraction": 0.0,
+          "frequency_units": "cycles_per_pixel_along_edge_normal",
+          "mtf50_cycles_per_pixel": 0.44237184154492765,
+          "mtf50_status": "measured",
+          "mtf_at_nyquist": 0.27639235927624267,
+          "warnings": [
+            "Approximate edge SFR, not ISO-certified; chart/ISP/noise/window biases remain.",
+            "SFR exceeds 1.05; inspect sharpening, ringing, noise, or ROI suitability."
+          ]
+        },
+        "linear_assumption_sensitivity": 0.4175366766426764
+      },
+      {
+        "image_number": 1,
+        "label": "C_top",
+        "axis": "horizontal",
+        "roi_xywh": [
+          619,
+          307,
+          51,
+          40
+        ],
+        "block_corners": [
+          [
+            613,
+            330
+          ],
+          [
+            676,
+            324
+          ],
+          [
+            681,
+            388
+          ],
+          [
+            618,
+            393
+          ]
+        ],
+        "transfer": "srgb_assumed_not_measured",
+        "status": "accepted",
+        "measurement": {
+          "measurement": "approximate_slanted_edge_sfr",
+          "iso_certified": false,
+          "axis": "horizontal",
+          "angle_from_axis_degrees": -4.399097153330073,
+          "fit_rms_pixels": 0.12839635529182195,
+          "rows_used": 51,
+          "rows_total": 51,
+          "polarity_reversed": true,
+          "linear_contrast": 0.3856680533873047,
+          "oversample": 4,
+          "esf_half_width_pixels": 16.25,
+          "empty_bin_fraction": 0.0,
+          "frequency_units": "cycles_per_pixel_along_edge_normal",
+          "mtf50_cycles_per_pixel": 0.39873702729133365,
+          "mtf50_status": "measured",
+          "mtf_at_nyquist": 0.2386937321449264,
+          "warnings": [
+            "Approximate edge SFR, not ISO-certified; chart/ISP/noise/window biases remain.",
+            "SFR exceeds 1.05; inspect sharpening, ringing, noise, or ROI suitability."
+          ]
+        },
+        "linear_assumption_sensitivity": 0.3731583762693662
+      },
+      {
+        "image_number": 1,
+        "label": "C_right",
+        "axis": "vertical",
+        "roi_xywh": [
+          658,
+          330,
+          40,
+          52
+        ],
+        "block_corners": [
+          [
+            613,
+            330
+          ],
+          [
+            676,
+            324
+          ],
+          [
+            681,
+            388
+          ],
+          [
+            618,
+            393
+          ]
+        ],
+        "transfer": "srgb_assumed_not_measured",
+        "status": "accepted",
+        "measurement": {
+          "measurement": "approximate_slanted_edge_sfr",
+          "iso_certified": false,
+          "axis": "vertical",
+          "angle_from_axis_degrees": 4.808177295349136,
+          "fit_rms_pixels": 0.21122935674916937,
+          "rows_used": 52,
+          "rows_total": 52,
+          "polarity_reversed": false,
+          "linear_contrast": 0.38531721618804904,
+          "oversample": 4,
+          "esf_half_width_pixels": 14.25,
+          "empty_bin_fraction": 0.0,
+          "frequency_units": "cycles_per_pixel_along_edge_normal",
+          "mtf50_cycles_per_pixel": null,
+          "mtf50_status": "not_crossed_below_nyquist",
+          "mtf_at_nyquist": 0.8201015798617387,
+          "warnings": [
+            "Approximate edge SFR, not ISO-certified; chart/ISP/noise/window biases remain.",
+            "No 50% crossing at or below sensor Nyquist; MTF50 is not reported.",
+            "SFR exceeds 1.05; inspect sharpening, ringing, noise, or ROI suitability."
+          ]
+        },
+        "linear_assumption_sensitivity": 0.4804776433628013
+      },
+      {
+        "image_number": 1,
+        "label": "C_bottom",
+        "axis": "horizontal",
+        "roi_xywh": [
+          624,
+          370,
+          51,
+          40
+        ],
+        "block_corners": [
+          [
+            613,
+            330
+          ],
+          [
+            676,
+            324
+          ],
+          [
+            681,
+            388
+          ],
+          [
+            618,
+            393
+          ]
+        ],
+        "transfer": "srgb_assumed_not_measured",
+        "status": "accepted",
+        "measurement": {
+          "measurement": "approximate_slanted_edge_sfr",
+          "iso_certified": false,
+          "axis": "horizontal",
+          "angle_from_axis_degrees": -4.9879144262092865,
+          "fit_rms_pixels": 0.12235695763878648,
+          "rows_used": 51,
+          "rows_total": 51,
+          "polarity_reversed": false,
+          "linear_contrast": 0.3985773084777068,
+          "oversample": 4,
+          "esf_half_width_pixels": 15.0,
+          "empty_bin_fraction": 0.0,
+          "frequency_units": "cycles_per_pixel_along_edge_normal",
+          "mtf50_cycles_per_pixel": 0.3374979181498012,
+          "mtf50_status": "measured",
+          "mtf_at_nyquist": 0.06898070155906544,
+          "warnings": [
+            "Approximate edge SFR, not ISO-certified; chart/ISP/noise/window biases remain."
+          ]
+        },
+        "linear_assumption_sensitivity": 0.3422274075931974
+      },
+      {
+        "image_number": 1,
+        "label": "C_left",
+        "axis": "vertical",
+        "roi_xywh": [
+          596,
+          336,
+          40,
+          51
+        ],
+        "block_corners": [
+          [
+            613,
+            330
+          ],
+          [
+            676,
+            324
+          ],
+          [
+            681,
+            388
+          ],
+          [
+            618,
+            393
+          ]
+        ],
+        "transfer": "srgb_assumed_not_measured",
+        "status": "accepted",
+        "measurement": {
+          "measurement": "approximate_slanted_edge_sfr",
+          "iso_certified": false,
+          "axis": "vertical",
+          "angle_from_axis_degrees": 4.542699534898796,
+          "fit_rms_pixels": 0.15620061278428396,
+          "rows_used": 51,
+          "rows_total": 51,
+          "polarity_reversed": true,
+          "linear_contrast": 0.38744923331004244,
+          "oversample": 4,
+          "esf_half_width_pixels": 16.25,
+          "empty_bin_fraction": 0.0,
+          "frequency_units": "cycles_per_pixel_along_edge_normal",
+          "mtf50_cycles_per_pixel": null,
+          "mtf50_status": "not_crossed_below_nyquist",
+          "mtf_at_nyquist": 0.8509848574981725,
+          "warnings": [
+            "Approximate edge SFR, not ISO-certified; chart/ISP/noise/window biases remain.",
+            "No 50% crossing at or below sensor Nyquist; MTF50 is not reported.",
+            "SFR exceeds 1.05; inspect sharpening, ringing, noise, or ROI suitability."
+          ]
+        },
+        "linear_assumption_sensitivity": 0.49184849053690016
+      },
+      {
+        "image_number": 1,
+        "label": "BL_top",
+        "axis": "horizontal",
+        "roi_xywh": [
+          437,
+          380,
+          57,
+          40
+        ],
+        "block_corners": [
+          [
+            431,
+            403
+          ],
+          [
+            500,
+            398
+          ],
+          [
+            504,
+            464
+          ],
+          [
+            436,
+            471
+          ]
+        ],
+        "transfer": "srgb_assumed_not_measured",
+        "status": "accepted",
+        "measurement": {
+          "measurement": "approximate_slanted_edge_sfr",
+          "iso_certified": false,
+          "axis": "horizontal",
+          "angle_from_axis_degrees": -4.73580883845964,
+          "fit_rms_pixels": 0.10965775389747337,
+          "rows_used": 57,
+          "rows_total": 57,
+          "polarity_reversed": true,
+          "linear_contrast": 0.38994495453709566,
+          "oversample": 4,
+          "esf_half_width_pixels": 15.5,
+          "empty_bin_fraction": 0.0,
+          "frequency_units": "cycles_per_pixel_along_edge_normal",
+          "mtf50_cycles_per_pixel": 0.35723536822657675,
+          "mtf50_status": "measured",
+          "mtf_at_nyquist": 0.1357522767682716,
+          "warnings": [
+            "Approximate edge SFR, not ISO-certified; chart/ISP/noise/window biases remain.",
+            "SFR exceeds 1.05; inspect sharpening, ringing, noise, or ROI suitability."
+          ]
+        },
+        "linear_assumption_sensitivity": 0.3469503956708453
+      },
+      {
+        "image_number": 1,
+        "label": "BL_right",
+        "axis": "vertical",
+        "roi_xywh": [
+          482,
+          404,
+          40,
+          54
+        ],
+        "block_corners": [
+          [
+            431,
+            403
+          ],
+          [
+            500,
+            398
+          ],
+          [
+            504,
+            464
+          ],
+          [
+            436,
+            471
+          ]
+        ],
+        "transfer": "srgb_assumed_not_measured",
+        "status": "accepted",
+        "measurement": {
+          "measurement": "approximate_slanted_edge_sfr",
+          "iso_certified": false,
+          "axis": "vertical",
+          "angle_from_axis_degrees": 3.4773070505536112,
+          "fit_rms_pixels": 0.18641905287904117,
+          "rows_used": 54,
+          "rows_total": 54,
+          "polarity_reversed": false,
+          "linear_contrast": 0.4168214684867585,
+          "oversample": 4,
+          "esf_half_width_pixels": 15.5,
+          "empty_bin_fraction": 0.0,
+          "frequency_units": "cycles_per_pixel_along_edge_normal",
+          "mtf50_cycles_per_pixel": null,
+          "mtf50_status": "not_crossed_below_nyquist",
+          "mtf_at_nyquist": 0.99909247198785,
+          "warnings": [
+            "Approximate edge SFR, not ISO-certified; chart/ISP/noise/window biases remain.",
+            "No 50% crossing at or below sensor Nyquist; MTF50 is not reported.",
+            "SFR exceeds 1.05; inspect sharpening, ringing, noise, or ROI suitability."
+          ]
+        },
+        "linear_assumption_sensitivity": 0.45133523328132025
+      },
+      {
+        "image_number": 1,
+        "label": "BL_bottom",
+        "axis": "horizontal",
+        "roi_xywh": [
+          442,
+          448,
+          56,
+          40
+        ],
+        "block_corners": [
+          [
+            431,
+            403
+          ],
+          [
+            500,
+            398
+          ],
+          [
+            504,
+            464
+          ],
+          [
+            436,
+            471
+          ]
+        ],
+        "transfer": "srgb_assumed_not_measured",
+        "status": "accepted",
+        "measurement": {
+          "measurement": "approximate_slanted_edge_sfr",
+          "iso_certified": false,
+          "axis": "horizontal",
+          "angle_from_axis_degrees": -5.618306251620819,
+          "fit_rms_pixels": 0.10613918040963975,
+          "rows_used": 56,
+          "rows_total": 56,
+          "polarity_reversed": false,
+          "linear_contrast": 0.34726704222203875,
+          "oversample": 4,
+          "esf_half_width_pixels": 15.25,
+          "empty_bin_fraction": 0.0,
+          "frequency_units": "cycles_per_pixel_along_edge_normal",
+          "mtf50_cycles_per_pixel": 0.27041508713306944,
+          "mtf50_status": "measured",
+          "mtf_at_nyquist": 0.03524927529596549,
+          "warnings": [
+            "Approximate edge SFR, not ISO-certified; chart/ISP/noise/window biases remain."
+          ]
+        },
+        "linear_assumption_sensitivity": 0.2859552874514591
+      },
+      {
+        "image_number": 1,
+        "label": "BL_left",
+        "axis": "vertical",
+        "roi_xywh": [
+          414,
+          409,
+          40,
+          56
+        ],
+        "block_corners": [
+          [
+            431,
+            403
+          ],
+          [
+            500,
+            398
+          ],
+          [
+            504,
+            464
+          ],
+          [
+            436,
+            471
+          ]
+        ],
+        "transfer": "srgb_assumed_not_measured",
+        "status": "accepted",
+        "measurement": {
+          "measurement": "approximate_slanted_edge_sfr",
+          "iso_certified": false,
+          "axis": "vertical",
+          "angle_from_axis_degrees": 2.8829316960360725,
+          "fit_rms_pixels": 0.23102209302975638,
+          "rows_used": 56,
+          "rows_total": 56,
+          "polarity_reversed": true,
+          "linear_contrast": 0.2756591708327143,
+          "oversample": 4,
+          "esf_half_width_pixels": 16.5,
+          "empty_bin_fraction": 0.0,
+          "frequency_units": "cycles_per_pixel_along_edge_normal",
+          "mtf50_cycles_per_pixel": null,
+          "mtf50_status": "not_crossed_below_nyquist",
+          "mtf_at_nyquist": 0.5133516155913341,
+          "warnings": [
+            "Approximate edge SFR, not ISO-certified; chart/ISP/noise/window biases remain.",
+            "No 50% crossing at or below sensor Nyquist; MTF50 is not reported.",
+            "SFR exceeds 1.05; inspect sharpening, ringing, noise, or ROI suitability."
+          ]
+        },
+        "linear_assumption_sensitivity": 0.3577271201212539
+      },
+      {
+        "image_number": 1,
+        "label": "BR_top",
+        "axis": "horizontal",
+        "roi_xywh": [
+          787,
+          380,
+          47,
+          40
+        ],
+        "block_corners": [
+          [
+            781,
+            403
+          ],
+          [
+            840,
+            397
+          ],
+          [
+            846,
+            459
+          ],
+          [
+            788,
+            465
+          ]
+        ],
+        "transfer": "srgb_assumed_not_measured",
+        "status": "rejected",
+        "reason": "ROI needs >=32 pixels across and >=48 pixels along the edge"
+      },
+      {
+        "image_number": 1,
+        "label": "BR_right",
+        "axis": "vertical",
+        "roi_xywh": [
+          823,
+          403,
+          40,
+          50
+        ],
+        "block_corners": [
+          [
+            781,
+            403
+          ],
+          [
+            840,
+            397
+          ],
+          [
+            846,
+            459
+          ],
+          [
+            788,
+            465
+          ]
+        ],
+        "transfer": "srgb_assumed_not_measured",
+        "status": "accepted",
+        "measurement": {
+          "measurement": "approximate_slanted_edge_sfr",
+          "iso_certified": false,
+          "axis": "vertical",
+          "angle_from_axis_degrees": 6.489215911941538,
+          "fit_rms_pixels": 0.12601186844728987,
+          "rows_used": 50,
+          "rows_total": 50,
+          "polarity_reversed": false,
+          "linear_contrast": 0.38528338937083806,
+          "oversample": 4,
+          "esf_half_width_pixels": 14.0,
+          "empty_bin_fraction": 0.0,
+          "frequency_units": "cycles_per_pixel_along_edge_normal",
+          "mtf50_cycles_per_pixel": 0.40520045310567626,
+          "mtf50_status": "measured",
+          "mtf_at_nyquist": 0.28696796250392753,
+          "warnings": [
+            "Approximate edge SFR, not ISO-certified; chart/ISP/noise/window biases remain.",
+            "SFR exceeds 1.05; inspect sharpening, ringing, noise, or ROI suitability."
+          ]
+        },
+        "linear_assumption_sensitivity": 0.3624588824215701
+      },
+      {
+        "image_number": 1,
+        "label": "BR_bottom",
+        "axis": "horizontal",
+        "roi_xywh": [
+          794,
+          442,
+          46,
+          40
+        ],
+        "block_corners": [
+          [
+            781,
+            403
+          ],
+          [
+            840,
+            397
+          ],
+          [
+            846,
+            459
+          ],
+          [
+            788,
+            465
+          ]
+        ],
+        "transfer": "srgb_assumed_not_measured",
+        "status": "rejected",
+        "reason": "ROI needs >=32 pixels across and >=48 pixels along the edge"
+      },
+      {
+        "image_number": 1,
+        "label": "BR_left",
+        "axis": "vertical",
+        "roi_xywh": [
+          764,
+          409,
+          40,
+          50
+        ],
+        "block_corners": [
+          [
+            781,
+            403
+          ],
+          [
+            840,
+            397
+          ],
+          [
+            846,
+            459
+          ],
+          [
+            788,
+            465
+          ]
+        ],
+        "transfer": "srgb_assumed_not_measured",
+        "status": "accepted",
+        "measurement": {
+          "measurement": "approximate_slanted_edge_sfr",
+          "iso_certified": false,
+          "axis": "vertical",
+          "angle_from_axis_degrees": 5.422300975286198,
+          "fit_rms_pixels": 0.13287503789612823,
+          "rows_used": 49,
+          "rows_total": 50,
+          "polarity_reversed": true,
+          "linear_contrast": 0.38570321823926557,
+          "oversample": 4,
+          "esf_half_width_pixels": 15.75,
+          "empty_bin_fraction": 0.0,
+          "frequency_units": "cycles_per_pixel_along_edge_normal",
+          "mtf50_cycles_per_pixel": null,
+          "mtf50_status": "not_crossed_below_nyquist",
+          "mtf_at_nyquist": 0.5012956538345655,
+          "warnings": [
+            "Approximate edge SFR, not ISO-certified; chart/ISP/noise/window biases remain.",
+            "No 50% crossing at or below sensor Nyquist; MTF50 is not reported.",
+            "SFR exceeds 1.05; inspect sharpening, ringing, noise, or ROI suitability."
+          ]
+        },
+        "linear_assumption_sensitivity": 0.4168987344033875
+      }
+    ],
+    "2": [
+      {
+        "image_number": 2,
+        "label": "TL_top",
+        "axis": "horizontal",
+        "roi_xywh": [
+          449,
+          232,
+          52,
+          40
+        ],
+        "block_corners": [
+          [
+            443,
+            257
+          ],
+          [
+            507,
+            248
+          ],
+          [
+            509,
+            318
+          ],
+          [
+            444,
+            325
+          ]
+        ],
+        "transfer": "srgb_assumed_not_measured",
+        "status": "accepted",
+        "measurement": {
+          "measurement": "approximate_slanted_edge_sfr",
+          "iso_certified": false,
+          "axis": "horizontal",
+          "angle_from_axis_degrees": -8.436299072243289,
+          "fit_rms_pixels": 0.14587443854320792,
+          "rows_used": 52,
+          "rows_total": 52,
+          "polarity_reversed": true,
+          "linear_contrast": 0.3902760132108909,
+          "oversample": 4,
+          "esf_half_width_pixels": 14.0,
+          "empty_bin_fraction": 0.0,
+          "frequency_units": "cycles_per_pixel_along_edge_normal",
+          "mtf50_cycles_per_pixel": 0.3927787848818656,
+          "mtf50_status": "measured",
+          "mtf_at_nyquist": 0.39547250869173267,
+          "warnings": [
+            "Approximate edge SFR, not ISO-certified; chart/ISP/noise/window biases remain.",
+            "SFR exceeds 1.05; inspect sharpening, ringing, noise, or ROI suitability."
+          ]
+        },
+        "linear_assumption_sensitivity": 0.3409394181099951
+      },
+      {
+        "image_number": 2,
+        "label": "TL_right",
+        "axis": "vertical",
+        "roi_xywh": [
+          488,
+          254,
+          40,
+          58
+        ],
+        "block_corners": [
+          [
+            443,
+            257
+          ],
+          [
+            507,
+            248
+          ],
+          [
+            509,
+            318
+          ],
+          [
+            444,
+            325
+          ]
+        ],
+        "transfer": "srgb_assumed_not_measured",
+        "status": "accepted",
+        "measurement": {
+          "measurement": "approximate_slanted_edge_sfr",
+          "iso_certified": false,
+          "axis": "vertical",
+          "angle_from_axis_degrees": 2.2511490718639795,
+          "fit_rms_pixels": 0.1533664138967334,
+          "rows_used": 58,
+          "rows_total": 58,
+          "polarity_reversed": false,
+          "linear_contrast": 0.3812273621868201,
+          "oversample": 4,
+          "esf_half_width_pixels": 16.0,
+          "empty_bin_fraction": 0.0,
+          "frequency_units": "cycles_per_pixel_along_edge_normal",
+          "mtf50_cycles_per_pixel": null,
+          "mtf50_status": "not_crossed_below_nyquist",
+          "mtf_at_nyquist": 0.7413712463382826,
+          "warnings": [
+            "Approximate edge SFR, not ISO-certified; chart/ISP/noise/window biases remain.",
+            "No 50% crossing at or below sensor Nyquist; MTF50 is not reported.",
+            "SFR exceeds 1.05; inspect sharpening, ringing, noise, or ROI suitability."
+          ]
+        },
+        "linear_assumption_sensitivity": 0.4361140432311451
+      },
+      {
+        "image_number": 2,
+        "label": "TL_bottom",
+        "axis": "horizontal",
+        "roi_xywh": [
+          450,
+          302,
+          53,
+          40
+        ],
+        "block_corners": [
+          [
+            443,
+            257
+          ],
+          [
+            507,
+            248
+          ],
+          [
+            509,
+            318
+          ],
+          [
+            444,
+            325
+          ]
+        ],
+        "transfer": "srgb_assumed_not_measured",
+        "status": "accepted",
+        "measurement": {
+          "measurement": "approximate_slanted_edge_sfr",
+          "iso_certified": false,
+          "axis": "horizontal",
+          "angle_from_axis_degrees": -6.6355207541161745,
+          "fit_rms_pixels": 0.13275734864560693,
+          "rows_used": 53,
+          "rows_total": 53,
+          "polarity_reversed": false,
+          "linear_contrast": 0.3669629795686379,
+          "oversample": 4,
+          "esf_half_width_pixels": 15.0,
+          "empty_bin_fraction": 0.0,
+          "frequency_units": "cycles_per_pixel_along_edge_normal",
+          "mtf50_cycles_per_pixel": 0.33477144339598447,
+          "mtf50_status": "measured",
+          "mtf_at_nyquist": 0.33156762658504074,
+          "warnings": [
+            "Approximate edge SFR, not ISO-certified; chart/ISP/noise/window biases remain.",
+            "SFR exceeds 1.05; inspect sharpening, ringing, noise, or ROI suitability."
+          ]
+        },
+        "linear_assumption_sensitivity": 0.3268415494233127
+      },
+      {
+        "image_number": 2,
+        "label": "TL_left",
+        "axis": "vertical",
+        "roi_xywh": [
+          424,
+          263,
+          40,
+          56
+        ],
+        "block_corners": [
+          [
+            443,
+            257
+          ],
+          [
+            507,
+            248
+          ],
+          [
+            509,
+            318
+          ],
+          [
+            444,
+            325
+          ]
+        ],
+        "transfer": "srgb_assumed_not_measured",
+        "status": "rejected",
+        "reason": "Choose an edge 1..15 degrees from the selected axis; 3..7 is preferable"
+      },
+      {
+        "image_number": 2,
+        "label": "TR_top",
+        "axis": "horizontal",
+        "roi_xywh": [
+          819,
+          244,
+          44,
+          40
+        ],
+        "block_corners": [
+          [
+            813,
+            263
+          ],
+          [
+            869,
+            264
+          ],
+          [
+            878,
+            326
+          ],
+          [
+            822,
+            329
+          ]
+        ],
+        "transfer": "srgb_assumed_not_measured",
+        "status": "rejected",
+        "reason": "ROI needs >=32 pixels across and >=48 pixels along the edge"
+      },
+      {
+        "image_number": 2,
+        "label": "TR_right",
+        "axis": "vertical",
+        "roi_xywh": [
+          854,
+          270,
+          40,
+          50
+        ],
+        "block_corners": [
+          [
+            813,
+            263
+          ],
+          [
+            869,
+            264
+          ],
+          [
+            878,
+            326
+          ],
+          [
+            822,
+            329
+          ]
+        ],
+        "transfer": "srgb_assumed_not_measured",
+        "status": "accepted",
+        "measurement": {
+          "measurement": "approximate_slanted_edge_sfr",
+          "iso_certified": false,
+          "axis": "vertical",
+          "angle_from_axis_degrees": 7.8940355860725875,
+          "fit_rms_pixels": 0.20175597884878985,
+          "rows_used": 50,
+          "rows_total": 50,
+          "polarity_reversed": false,
+          "linear_contrast": 0.36909299522481115,
+          "oversample": 4,
+          "esf_half_width_pixels": 14.5,
+          "empty_bin_fraction": 0.0,
+          "frequency_units": "cycles_per_pixel_along_edge_normal",
+          "mtf50_cycles_per_pixel": null,
+          "mtf50_status": "not_crossed_below_nyquist",
+          "mtf_at_nyquist": 0.6061778800313387,
+          "warnings": [
+            "Approximate edge SFR, not ISO-certified; chart/ISP/noise/window biases remain.",
+            "No 50% crossing at or below sensor Nyquist; MTF50 is not reported.",
+            "SFR exceeds 1.05; inspect sharpening, ringing, noise, or ROI suitability."
+          ]
+        },
+        "linear_assumption_sensitivity": 0.4219563225800016
+      },
+      {
+        "image_number": 2,
+        "label": "TR_bottom",
+        "axis": "horizontal",
+        "roi_xywh": [
+          828,
+          308,
+          44,
+          40
+        ],
+        "block_corners": [
+          [
+            813,
+            263
+          ],
+          [
+            869,
+            264
+          ],
+          [
+            878,
+            326
+          ],
+          [
+            822,
+            329
+          ]
+        ],
+        "transfer": "srgb_assumed_not_measured",
+        "status": "rejected",
+        "reason": "ROI needs >=32 pixels across and >=48 pixels along the edge"
+      },
+      {
+        "image_number": 2,
+        "label": "TR_left",
+        "axis": "vertical",
+        "roi_xywh": [
+          798,
+          269,
+          40,
+          54
+        ],
+        "block_corners": [
+          [
+            813,
+            263
+          ],
+          [
+            869,
+            264
+          ],
+          [
+            878,
+            326
+          ],
+          [
+            822,
+            329
+          ]
+        ],
+        "transfer": "srgb_assumed_not_measured",
+        "status": "accepted",
+        "measurement": {
+          "measurement": "approximate_slanted_edge_sfr",
+          "iso_certified": false,
+          "axis": "vertical",
+          "angle_from_axis_degrees": 7.36249406863346,
+          "fit_rms_pixels": 0.16314949829952796,
+          "rows_used": 54,
+          "rows_total": 54,
+          "polarity_reversed": true,
+          "linear_contrast": 0.38507825177162336,
+          "oversample": 4,
+          "esf_half_width_pixels": 14.25,
+          "empty_bin_fraction": 0.0,
+          "frequency_units": "cycles_per_pixel_along_edge_normal",
+          "mtf50_cycles_per_pixel": null,
+          "mtf50_status": "not_crossed_below_nyquist",
+          "mtf_at_nyquist": 0.6078554539490653,
+          "warnings": [
+            "Approximate edge SFR, not ISO-certified; chart/ISP/noise/window biases remain.",
+            "No 50% crossing at or below sensor Nyquist; MTF50 is not reported.",
+            "SFR exceeds 1.05; inspect sharpening, ringing, noise, or ROI suitability."
+          ]
+        },
+        "linear_assumption_sensitivity": 0.4563136234346766
+      },
+      {
+        "image_number": 2,
+        "label": "C_top",
+        "axis": "horizontal",
+        "roi_xywh": [
+          633,
+          326,
+          62,
+          40
+        ],
+        "block_corners": [
+          [
+            627,
+            348
+          ],
+          [
+            701,
+            343
+          ],
+          [
+            708,
+            416
+          ],
+          [
+            633,
+            423
+          ]
+        ],
+        "transfer": "srgb_assumed_not_measured",
+        "status": "accepted",
+        "measurement": {
+          "measurement": "approximate_slanted_edge_sfr",
+          "iso_certified": false,
+          "axis": "horizontal",
+          "angle_from_axis_degrees": -4.171549418550826,
+          "fit_rms_pixels": 0.13862020987689935,
+          "rows_used": 62,
+          "rows_total": 62,
+          "polarity_reversed": true,
+          "linear_contrast": 0.3566328713097787,
+          "oversample": 4,
+          "esf_half_width_pixels": 15.5,
+          "empty_bin_fraction": 0.0,
+          "frequency_units": "cycles_per_pixel_along_edge_normal",
+          "mtf50_cycles_per_pixel": 0.35874032294116215,
+          "mtf50_status": "measured",
+          "mtf_at_nyquist": 0.15278527798294742,
+          "warnings": [
+            "Approximate edge SFR, not ISO-certified; chart/ISP/noise/window biases remain.",
+            "SFR exceeds 1.05; inspect sharpening, ringing, noise, or ROI suitability."
+          ]
+        },
+        "linear_assumption_sensitivity": 0.3386016360751314
+      },
+      {
+        "image_number": 2,
+        "label": "C_right",
+        "axis": "vertical",
+        "roi_xywh": [
+          684,
+          349,
+          40,
+          61
+        ],
+        "block_corners": [
+          [
+            627,
+            348
+          ],
+          [
+            701,
+            343
+          ],
+          [
+            708,
+            416
+          ],
+          [
+            633,
+            423
+          ]
+        ],
+        "transfer": "srgb_assumed_not_measured",
+        "status": "accepted",
+        "measurement": {
+          "measurement": "approximate_slanted_edge_sfr",
+          "iso_certified": false,
+          "axis": "vertical",
+          "angle_from_axis_degrees": 4.915031171461944,
+          "fit_rms_pixels": 0.20933848038038874,
+          "rows_used": 61,
+          "rows_total": 61,
+          "polarity_reversed": false,
+          "linear_contrast": 0.37327736441267045,
+          "oversample": 4,
+          "esf_half_width_pixels": 14.25,
+          "empty_bin_fraction": 0.0,
+          "frequency_units": "cycles_per_pixel_along_edge_normal",
+          "mtf50_cycles_per_pixel": null,
+          "mtf50_status": "not_crossed_below_nyquist",
+          "mtf_at_nyquist": 0.7221563778084547,
+          "warnings": [
+            "Approximate edge SFR, not ISO-certified; chart/ISP/noise/window biases remain.",
+            "No 50% crossing at or below sensor Nyquist; MTF50 is not reported.",
+            "SFR exceeds 1.05; inspect sharpening, ringing, noise, or ROI suitability."
+          ]
+        },
+        "linear_assumption_sensitivity": 0.4421146926514539
+      },
+      {
+        "image_number": 2,
+        "label": "C_bottom",
+        "axis": "horizontal",
+        "roi_xywh": [
+          639,
+          400,
+          63,
+          40
+        ],
+        "block_corners": [
+          [
+            627,
+            348
+          ],
+          [
+            701,
+            343
+          ],
+          [
+            708,
+            416
+          ],
+          [
+            633,
+            423
+          ]
+        ],
+        "transfer": "srgb_assumed_not_measured",
+        "status": "accepted",
+        "measurement": {
+          "measurement": "approximate_slanted_edge_sfr",
+          "iso_certified": false,
+          "axis": "horizontal",
+          "angle_from_axis_degrees": -4.974448884399995,
+          "fit_rms_pixels": 0.12965630557608362,
+          "rows_used": 63,
+          "rows_total": 63,
+          "polarity_reversed": false,
+          "linear_contrast": 0.3968551821793491,
+          "oversample": 4,
+          "esf_half_width_pixels": 14.5,
+          "empty_bin_fraction": 0.0,
+          "frequency_units": "cycles_per_pixel_along_edge_normal",
+          "mtf50_cycles_per_pixel": 0.3207239470039618,
+          "mtf50_status": "measured",
+          "mtf_at_nyquist": 0.3252345594247567,
+          "warnings": [
+            "Approximate edge SFR, not ISO-certified; chart/ISP/noise/window biases remain.",
+            "SFR exceeds 1.05; inspect sharpening, ringing, noise, or ROI suitability."
+          ]
+        },
+        "linear_assumption_sensitivity": 0.3227785343046066
+      },
+      {
+        "image_number": 2,
+        "label": "C_left",
+        "axis": "vertical",
+        "roi_xywh": [
+          610,
+          354,
+          40,
+          63
+        ],
+        "block_corners": [
+          [
+            627,
+            348
+          ],
+          [
+            701,
+            343
+          ],
+          [
+            708,
+            416
+          ],
+          [
+            633,
+            423
+          ]
+        ],
+        "transfer": "srgb_assumed_not_measured",
+        "status": "accepted",
+        "measurement": {
+          "measurement": "approximate_slanted_edge_sfr",
+          "iso_certified": false,
+          "axis": "vertical",
+          "angle_from_axis_degrees": 4.726654690411795,
+          "fit_rms_pixels": 0.18009408700091037,
+          "rows_used": 63,
+          "rows_total": 63,
+          "polarity_reversed": true,
+          "linear_contrast": 0.38336896062804704,
+          "oversample": 4,
+          "esf_half_width_pixels": 15.5,
+          "empty_bin_fraction": 0.0,
+          "frequency_units": "cycles_per_pixel_along_edge_normal",
+          "mtf50_cycles_per_pixel": null,
+          "mtf50_status": "not_crossed_below_nyquist",
+          "mtf_at_nyquist": 0.5991570205734817,
+          "warnings": [
+            "Approximate edge SFR, not ISO-certified; chart/ISP/noise/window biases remain.",
+            "No 50% crossing at or below sensor Nyquist; MTF50 is not reported.",
+            "SFR exceeds 1.05; inspect sharpening, ringing, noise, or ROI suitability."
+          ]
+        },
+        "linear_assumption_sensitivity": 0.4558114983525683
+      },
+      {
+        "image_number": 2,
+        "label": "BL_top",
+        "axis": "horizontal",
+        "roi_xywh": [
+          443,
+          409,
+          52,
+          40
+        ],
+        "block_corners": [
+          [
+            437,
+            431
+          ],
+          [
+            501,
+            427
+          ],
+          [
+            509,
+            500
+          ],
+          [
+            444,
+            501
+          ]
+        ],
+        "transfer": "srgb_assumed_not_measured",
+        "status": "accepted",
+        "measurement": {
+          "measurement": "approximate_slanted_edge_sfr",
+          "iso_certified": false,
+          "axis": "horizontal",
+          "angle_from_axis_degrees": -3.64777813385161,
+          "fit_rms_pixels": 0.1360100540474166,
+          "rows_used": 52,
+          "rows_total": 52,
+          "polarity_reversed": true,
+          "linear_contrast": 0.38618462310984547,
+          "oversample": 4,
+          "esf_half_width_pixels": 16.75,
+          "empty_bin_fraction": 0.0,
+          "frequency_units": "cycles_per_pixel_along_edge_normal",
+          "mtf50_cycles_per_pixel": 0.37042647685484864,
+          "mtf50_status": "measured",
+          "mtf_at_nyquist": 0.27304493376599936,
+          "warnings": [
+            "Approximate edge SFR, not ISO-certified; chart/ISP/noise/window biases remain.",
+            "SFR exceeds 1.05; inspect sharpening, ringing, noise, or ROI suitability."
+          ]
+        },
+        "linear_assumption_sensitivity": 0.35911004661976803
+      },
+      {
+        "image_number": 2,
+        "label": "BL_right",
+        "axis": "vertical",
+        "roi_xywh": [
+          485,
+          433,
+          40,
+          61
+        ],
+        "block_corners": [
+          [
+            437,
+            431
+          ],
+          [
+            501,
+            427
+          ],
+          [
+            509,
+            500
+          ],
+          [
+            444,
+            501
+          ]
+        ],
+        "transfer": "srgb_assumed_not_measured",
+        "status": "accepted",
+        "measurement": {
+          "measurement": "approximate_slanted_edge_sfr",
+          "iso_certified": false,
+          "axis": "vertical",
+          "angle_from_axis_degrees": 5.683235345536508,
+          "fit_rms_pixels": 0.23839242738283625,
+          "rows_used": 61,
+          "rows_total": 61,
+          "polarity_reversed": false,
+          "linear_contrast": 0.4162888770620375,
+          "oversample": 4,
+          "esf_half_width_pixels": 14.5,
+          "empty_bin_fraction": 0.0,
+          "frequency_units": "cycles_per_pixel_along_edge_normal",
+          "mtf50_cycles_per_pixel": null,
+          "mtf50_status": "not_crossed_below_nyquist",
+          "mtf_at_nyquist": 0.8155385144418693,
+          "warnings": [
+            "Approximate edge SFR, not ISO-certified; chart/ISP/noise/window biases remain.",
+            "No 50% crossing at or below sensor Nyquist; MTF50 is not reported.",
+            "SFR exceeds 1.05; inspect sharpening, ringing, noise, or ROI suitability."
+          ]
+        },
+        "linear_assumption_sensitivity": 0.45211450740743786
+      },
+      {
+        "image_number": 2,
+        "label": "BL_bottom",
+        "axis": "horizontal",
+        "roi_xywh": [
+          450,
+          480,
+          53,
+          40
+        ],
+        "block_corners": [
+          [
+            437,
+            431
+          ],
+          [
+            501,
+            427
+          ],
+          [
+            509,
+            500
+          ],
+          [
+            444,
+            501
+          ]
+        ],
+        "transfer": "srgb_assumed_not_measured",
+        "status": "accepted",
+        "measurement": {
+          "measurement": "approximate_slanted_edge_sfr",
+          "iso_certified": false,
+          "axis": "horizontal",
+          "angle_from_axis_degrees": -1.1590846386620073,
+          "fit_rms_pixels": 0.13811564925355116,
+          "rows_used": 53,
+          "rows_total": 53,
+          "polarity_reversed": false,
+          "linear_contrast": 0.33450688632348874,
+          "oversample": 4,
+          "esf_half_width_pixels": 16.75,
+          "empty_bin_fraction": 0.0,
+          "frequency_units": "cycles_per_pixel_along_edge_normal",
+          "mtf50_cycles_per_pixel": 0.27047997430430337,
+          "mtf50_status": "measured",
+          "mtf_at_nyquist": 0.06388796739591457,
+          "warnings": [
+            "Approximate edge SFR, not ISO-certified; chart/ISP/noise/window biases remain."
+          ]
+        },
+        "linear_assumption_sensitivity": 0.28333252416359295
+      },
+      {
+        "image_number": 2,
+        "label": "BL_left",
+        "axis": "vertical",
+        "roi_xywh": [
+          420,
+          437,
+          40,
+          58
+        ],
+        "block_corners": [
+          [
+            437,
+            431
+          ],
+          [
+            501,
+            427
+          ],
+          [
+            509,
+            500
+          ],
+          [
+            444,
+            501
+          ]
+        ],
+        "transfer": "srgb_assumed_not_measured",
+        "status": "accepted",
+        "measurement": {
+          "measurement": "approximate_slanted_edge_sfr",
+          "iso_certified": false,
+          "axis": "vertical",
+          "angle_from_axis_degrees": 6.180735456607226,
+          "fit_rms_pixels": 0.21546429317038707,
+          "rows_used": 58,
+          "rows_total": 58,
+          "polarity_reversed": true,
+          "linear_contrast": 0.2596795697635249,
+          "oversample": 4,
+          "esf_half_width_pixels": 15.0,
+          "empty_bin_fraction": 0.0,
+          "frequency_units": "cycles_per_pixel_along_edge_normal",
+          "mtf50_cycles_per_pixel": null,
+          "mtf50_status": "not_crossed_below_nyquist",
+          "mtf_at_nyquist": 0.6497603328708473,
+          "warnings": [
+            "Approximate edge SFR, not ISO-certified; chart/ISP/noise/window biases remain.",
+            "No 50% crossing at or below sensor Nyquist; MTF50 is not reported.",
+            "SFR exceeds 1.05; inspect sharpening, ringing, noise, or ROI suitability."
+          ]
+        },
+        "linear_assumption_sensitivity": 0.45464391934981757
+      },
+      {
+        "image_number": 2,
+        "label": "BR_top",
+        "axis": "horizontal",
+        "roi_xywh": [
+          823,
+          408,
+          44,
+          40
+        ],
+        "block_corners": [
+          [
+            817,
+            432
+          ],
+          [
+            873,
+            424
+          ],
+          [
+            875,
+            489
+          ],
+          [
+            820,
+            500
+          ]
+        ],
+        "transfer": "srgb_assumed_not_measured",
+        "status": "rejected",
+        "reason": "ROI needs >=32 pixels across and >=48 pixels along the edge"
+      },
+      {
+        "image_number": 2,
+        "label": "BR_right",
+        "axis": "vertical",
+        "roi_xywh": [
+          854,
+          430,
+          40,
+          53
+        ],
+        "block_corners": [
+          [
+            817,
+            432
+          ],
+          [
+            873,
+            424
+          ],
+          [
+            875,
+            489
+          ],
+          [
+            820,
+            500
+          ]
+        ],
+        "transfer": "srgb_assumed_not_measured",
+        "status": "accepted",
+        "measurement": {
+          "measurement": "approximate_slanted_edge_sfr",
+          "iso_certified": false,
+          "axis": "vertical",
+          "angle_from_axis_degrees": 2.411915746773548,
+          "fit_rms_pixels": 0.20061310316923092,
+          "rows_used": 53,
+          "rows_total": 53,
+          "polarity_reversed": false,
+          "linear_contrast": 0.38844700248448405,
+          "oversample": 4,
+          "esf_half_width_pixels": 15.75,
+          "empty_bin_fraction": 0.0,
+          "frequency_units": "cycles_per_pixel_along_edge_normal",
+          "mtf50_cycles_per_pixel": null,
+          "mtf50_status": "not_crossed_below_nyquist",
+          "mtf_at_nyquist": 0.8750176844832666,
+          "warnings": [
+            "Approximate edge SFR, not ISO-certified; chart/ISP/noise/window biases remain.",
+            "No 50% crossing at or below sensor Nyquist; MTF50 is not reported.",
+            "SFR exceeds 1.05; inspect sharpening, ringing, noise, or ROI suitability."
+          ]
+        },
+        "linear_assumption_sensitivity": 0.42307591050606014
+      },
+      {
+        "image_number": 2,
+        "label": "BR_bottom",
+        "axis": "horizontal",
+        "roi_xywh": [
+          826,
+          474,
+          43,
+          40
+        ],
+        "block_corners": [
+          [
+            817,
+            432
+          ],
+          [
+            873,
+            424
+          ],
+          [
+            875,
+            489
+          ],
+          [
+            820,
+            500
+          ]
+        ],
+        "transfer": "srgb_assumed_not_measured",
+        "status": "rejected",
+        "reason": "ROI needs >=32 pixels across and >=48 pixels along the edge"
+      },
+      {
+        "image_number": 2,
+        "label": "BR_left",
+        "axis": "vertical",
+        "roi_xywh": [
+          798,
+          438,
+          40,
+          56
+        ],
+        "block_corners": [
+          [
+            817,
+            432
+          ],
+          [
+            873,
+            424
+          ],
+          [
+            875,
+            489
+          ],
+          [
+            820,
+            500
+          ]
+        ],
+        "transfer": "srgb_assumed_not_measured",
+        "status": "accepted",
+        "measurement": {
+          "measurement": "approximate_slanted_edge_sfr",
+          "iso_certified": false,
+          "axis": "vertical",
+          "angle_from_axis_degrees": 2.3226967040294237,
+          "fit_rms_pixels": 0.16349428675632144,
+          "rows_used": 56,
+          "rows_total": 56,
+          "polarity_reversed": true,
+          "linear_contrast": 0.38618702930149473,
+          "oversample": 4,
+          "esf_half_width_pixels": 16.75,
+          "empty_bin_fraction": 0.0,
+          "frequency_units": "cycles_per_pixel_along_edge_normal",
+          "mtf50_cycles_per_pixel": null,
+          "mtf50_status": "not_crossed_below_nyquist",
+          "mtf_at_nyquist": 0.569114300092602,
+          "warnings": [
+            "Approximate edge SFR, not ISO-certified; chart/ISP/noise/window biases remain.",
+            "No 50% crossing at or below sensor Nyquist; MTF50 is not reported.",
+            "SFR exceeds 1.05; inspect sharpening, ringing, noise, or ROI suitability."
+          ]
+        },
+        "linear_assumption_sensitivity": 0.44579373295728403
+      }
+    ]
+  },
+  "inputs": [
+    {
+      "id": "A1",
+      "metric": "清晰度",
+      "mode": "普通矫正",
+      "file": "01_清晰度数据/inputs/01_corrected_edges.png",
+      "sha256": "bc6f770f93481e4d743f587e91fd511f4bb87422e7ce55d2e25b53b9da1c34ba",
+      "detail_enhancement": false
+    },
+    {
+      "id": "A2",
+      "metric": "清晰度",
+      "mode": "原图",
+      "file": "01_清晰度数据/inputs/02_raw_edges.png",
+      "sha256": "42b72c7c20c8cd4276ec27feeefa11a153f0018a370b02762468b7bee2245bd0",
+      "detail_enhancement": false
+    }
+  ],
+  "method": "Approximate slanted-edge SFR, assumed sRGB, original pixels, fourfold ESF oversampling.",
+  "source_results_sha256": "9e54a7c2c5a86cff3eb83a31b2cfac5f55042cc9c5a4491e14784241294e0bad"
+}

@@ -1,0 +1,39 @@
+{
+  "copied_unchanged": [
+    {
+      "source": "C:\\Users\\zzcna\\Documents\\ChatGPT\\FPGA紫光二\\output\\optical_kit_20261027\\tools\\calibrate_camera.py",
+      "copy": "calibrate_camera.py",
+      "sha256": "88162b096fc9909bc6c99f395868bbfeeaf65b5a66651dad541568a8ebec39b2"
+    },
+    {
+      "source": "C:\\Users\\zzcna\\Documents\\ChatGPT\\FPGA紫光二\\output\\optical_kit_20261027\\tools\\measure_quality.py",
+      "copy": "measure_quality.py",
+      "sha256": "b17b268fab5287cf6fe698e251692545feb0dd9e12b71680732386274bbebbb7"
+    },
+    {
+      "source": "C:\\Users\\zzcna\\Documents\\ChatGPT\\FPGA紫光二\\output\\optical_kit_20261027\\tools\\create_charts.py",
+      "copy": "reference\\create_charts.py",
+      "sha256": "6585b31836ecceb41b370312b4004f792e66a5ad7d4532e3cb973877d84569a8"
+    },
+    {
+      "source": "C:\\Users\\zzcna\\Documents\\ChatGPT\\FPGA紫光二\\output\\optical_kit_20261027\\charts\\A4_calibration_and_quality_targets.pdf",
+      "copy": "assets\\A4_calibration_and_quality_targets.pdf",
+      "sha256": "7f4a4314f2e6745c79173d391669e74ccffd6c7b5aa81f94095fb41ea5021a8a"
+    },
+    {
+      "source": "C:\\Users\\zzcna\\Documents\\ChatGPT\\FPGA紫光二\\output\\optical_kit_20261027\\charts\\target_specifications.json",
+      "copy": "assets\\target_specifications.json",
+      "sha256": "5ddf9812722779976b0f1e3cea85a3a763ecab6773364ccdf920cfa7613b0b8b"
+    }
+  ],
+  "scope": "Offline input files only; current C97 production calibration is never overwritten",
+  "modified": [
+    {
+      "source": "C:\\Users\\zzcna\\Documents\\ChatGPT\\FPGA紫光二\\output\\optical_kit_20261027\\tools\\camera_toolbox.py",
+      "copy": "camera_toolbox.py",
+      "original_sha256": "9325dd4279bd513d7f63f271f118c847d6e03706aee786bca2632116f51e364c",
+      "sha256": "23e8e1e59b7ac6405ff8d39bae5e39d9bf14339398e0d66c6c8c48e2dd59992b",
+      "change": "Removed unreachable historical joint-check CLI and its dedicated function, SciPy import and external C126 project dependency; checker, edge and line-pick algorithms unchanged."
+    }
+  ]
+}

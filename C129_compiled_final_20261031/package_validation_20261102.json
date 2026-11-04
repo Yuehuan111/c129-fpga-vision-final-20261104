@@ -1,0 +1,12 @@
+{
+  "tests_run": 7,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "success": true,
+  "hardware_accessed": false,
+  "startup_dependencies": "PASS",
+  "portable_relative_calibration": "PASS",
+  "photo_and_recording_controls": "PASS",
+  "stage_hardware_accessed": false
+}

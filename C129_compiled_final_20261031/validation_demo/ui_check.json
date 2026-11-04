@@ -1,0 +1,34 @@
+{
+  "status": "PASS",
+  "project": "D:\\FPGA\\demo_audit_20261031\\C129_compiled_final_20261031",
+  "checks": [
+    "metrics hidden by default; original full-width video restored",
+    "mode emphasis requires fresh matching output; waiting/fault/stale/static IMU not highlighted",
+    {
+      "size": [
+        1000,
+        700
+      ],
+      "video_hidden_width": 960,
+      "video_metrics_width": 650,
+      "metrics_rows": 21,
+      "scroll_to_bottom": true
+    },
+    {
+      "size": [
+        1360,
+        860
+      ],
+      "video_hidden_width": 1320,
+      "video_metrics_width": 1010,
+      "metrics_rows": 21,
+      "scroll_to_bottom": true
+    },
+    "offline recording rejected; cancelling export leaves state intact",
+    "quality report menu preserves explicit original/corrected role; cancellation does nothing",
+    "synthetic callback test: cancelled export preserves recording; successful export ends it",
+    "unfinished recording auto-export requested on close"
+  ],
+  "device_access": false,
+  "callback_errors": []
+}

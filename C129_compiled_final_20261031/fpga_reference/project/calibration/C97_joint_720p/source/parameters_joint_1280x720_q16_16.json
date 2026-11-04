@@ -1,0 +1,149 @@
+{
+  "total_bits": 32,
+  "fractional_bits": 16,
+  "fixed_point_format": "Q16.16",
+  "rounding": "floor(value * 2^fractional_bits + 0.5)",
+  "all_parameters_fit": true,
+  "parameters": {
+    "fx_src": {
+      "float_value": 419.2701379894613,
+      "decimal": 27477288,
+      "verilog_hex": "32'sh01A34528",
+      "restored_float": 419.2701416015625,
+      "quantization_error": 3.6121011817158433e-06
+    },
+    "fy_src": {
+      "float_value": 422.6933026356671,
+      "decimal": 27701628,
+      "verilog_hex": "32'sh01A6B17C",
+      "restored_float": 422.69329833984375,
+      "quantization_error": -4.295823373468011e-06
+    },
+    "cx_src": {
+      "float_value": 620.8396039846909,
+      "decimal": 40687344,
+      "verilog_hex": "32'sh026CD6F0",
+      "restored_float": 620.839599609375,
+      "quantization_error": -4.37531593888707e-06
+    },
+    "cy_src": {
+      "float_value": 335.22631200868494,
+      "decimal": 21969392,
+      "verilog_hex": "32'sh014F39F0",
+      "restored_float": 335.226318359375,
+      "quantization_error": 6.3506900573884195e-06
+    },
+    "fx_out": {
+      "float_value": 354.75779292977217,
+      "decimal": 23249407,
+      "verilog_hex": "32'sh0162C1FF",
+      "restored_float": 354.75779724121094,
+      "quantization_error": 4.311438772219844e-06
+    },
+    "fy_out": {
+      "float_value": 354.75779292977217,
+      "decimal": 23249407,
+      "verilog_hex": "32'sh0162C1FF",
+      "restored_float": 354.75779724121094,
+      "quantization_error": 4.311438772219844e-06
+    },
+    "cx_out": {
+      "float_value": 639.5,
+      "decimal": 41910272,
+      "verilog_hex": "32'sh027F8000",
+      "restored_float": 639.5,
+      "quantization_error": 0.0
+    },
+    "cy_out": {
+      "float_value": 359.5,
+      "decimal": 23560192,
+      "verilog_hex": "32'sh01678000",
+      "restored_float": 359.5,
+      "quantization_error": 0.0
+    },
+    "fish_k1": {
+      "float_value": 5.372251914405e-05,
+      "decimal": 4,
+      "verilog_hex": "32'sh00000004",
+      "restored_float": 6.103515625e-05,
+      "quantization_error": 7.312637105950001e-06
+    },
+    "fish_k2": {
+      "float_value": 0.0027949700902381728,
+      "decimal": 183,
+      "verilog_hex": "32'sh000000B7",
+      "restored_float": 0.0027923583984375,
+      "quantization_error": -2.6116918006727566e-06
+    },
+    "fish_k3": {
+      "float_value": 0.003305952434839085,
+      "decimal": 217,
+      "verilog_hex": "32'sh000000D9",
+      "restored_float": 0.0033111572265625,
+      "quantization_error": 5.204791723415099e-06
+    },
+    "fish_k4": {
+      "float_value": -0.0012182230346019151,
+      "decimal": -80,
+      "verilog_hex": "32'shFFFFFFB0",
+      "restored_float": -0.001220703125,
+      "quantization_error": -2.480090398084868e-06
+    },
+    "fish_p1": {
+      "float_value": -0.0002038083317707202,
+      "decimal": -13,
+      "verilog_hex": "32'shFFFFFFF3",
+      "restored_float": -0.0001983642578125,
+      "quantization_error": 5.444073958220201e-06
+    },
+    "fish_p2": {
+      "float_value": 0.00027791852315867533,
+      "decimal": 18,
+      "verilog_hex": "32'sh00000012",
+      "restored_float": 0.000274658203125,
+      "quantization_error": -3.2603200336753344e-06
+    }
+  },
+  "model": "fisheye4_then_tangential2_joint_intrinsics",
+  "image_size": [
+    1280,
+    720
+  ],
+  "source_image_size": [
+    1920,
+    1080
+  ],
+  "coordinate_rule": "p_target=(p_source+0.5)*scale-0.5",
+  "scale": 0.6666666666666666,
+  "normalized_distortion_coefficients_scaled": false,
+  "candidate_only": true,
+  "board_config_compatible": false,
+  "prior_parameters_preserved_in_existing_projects": true,
+  "all_candidate_K_D_p_must_be_used_together": true,
+  "supports_further_review": false,
+  "native_capture_mode_optically_verified": false,
+  "tangential_plane": "After fisheye normalized radial coordinates, before source K",
+  "warning": "This is a new WHOLE parameter set, NOT p to append to old C97 k/K. Not an old18/27-word boot config.",
+  "quantization_checks": {
+    "all_parameters_fit": true,
+    "derived_mode_optically_verified": false,
+    "quantized_geometry_checks": {
+      "passed": true,
+      "radial_derivative_min_sampled": 1.0,
+      "radial_derivative_min_from_polynomial_critical_points": 1.0,
+      "tangential_jacobian_determinant_min_sampled": 0.9961441391628704,
+      "tangential_min_eigenvalue_disk_lower_bound": 0.9967947662269745,
+      "fisheye_radius_disk_bound": 1.576757592038262,
+      "theta_range_checked_radians": [
+        0,
+        1.543654109444883
+      ],
+      "radial_theta_samples": 8193,
+      "observed_and_output_ray_samples": 29747,
+      "meaning": "Radial polynomial critical-point check and sufficient tangential positive-Jacobian bound over the ray-domain radius disk, plus sampled checks. Numerical floating-point analysis; not optical validation or a claim outside this domain."
+    },
+    "sampled_reference_map_max_quantization_displacement_px": 0.013303532164538412,
+    "reference_map_sample_count": 24897,
+    "meaning": "Whole K,D,p and Kout Q16.16 estimate; sampled floating projection comparison, not RTL intermediate arithmetic proof."
+  }
+}

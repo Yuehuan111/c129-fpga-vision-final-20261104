@@ -1,0 +1,65 @@
+﻿C129 已编译完整工程、最新上位机与标定文件
+
+本包直接归档本地已有编译结果，没有重新编译 FPGA，没有改变 FPGA 源码、PDS、约束、数据库和烧录文件。
+编译、综合、器件映射、布局布线、时序数据库及报告均保留，并与原构建记录的源码和产物哈希对应。
+
+上位机入口：根目录 start_demo.cmd。
+首次使用需安装带 tkinter 的 Python 3.10+，在本目录 PowerShell 执行：
+  powershell -NoProfile -ExecutionPolicy Bypass -File .\host\setup_host.ps1 -Python python
+然后双击 start_demo.cmd。串口和采集卡编号按接收电脑实际设备选择。
+显示旋转 180°、双击全屏等现有功能保留；自动连接和自动应用标定关闭。
+host/start_gui.cmd 为较早的基础控制界面，日常使用根目录 start_demo.cmd。
+
+预览拍照（2026-11-02 新增）：
+  在“演示”页画面下方点击“拍照 (F8)”，也可按 F8；全屏预览时同样可用。
+  照片自动保存到 host/results/photos/，点击“照片文件夹”可打开保存位置。
+  使用带时间戳的 PNG 文件名，保留采集画面的原始分辨率，不包含界面控件。
+  照片方向跟随“观看旋转 180°”设置；历史快照导出仍保留采集原始方向。
+  拍照保存当前预览帧；预览本地照片时保存的是该照片，并非实时实板采集。
+  程序已打开时，关闭后重新运行 start_demo.cmd 才会加载新增按钮。
+
+预览录像（2026-11-02 新增）：
+  打开实时画面后，点击“开始录像 (F9)”；再次点击或按 F9 停止并保存。
+  全屏预览时 F9 同样可用。按钮旁显示录像计时和保存状态。
+  保存位置为 host/results/videos/，点击“录像文件夹”打开。
+  文件为 MP4（MPEG-4/mp4v），只包含原始分辨率的预览图像，无声音和界面控件。
+  录像方向跟随预览旋转；录像中也可以拍照。图片可用于清晰度测量，压缩视频不宜代替 PNG 原图。
+  视频按实际录制时长写入 30 FPS 时间轴；预览更新较慢时重复上一帧，不会变成加速视频。
+  文件的 30 FPS 不代表 FPGA 每秒产生 30 帧新矫正结果。同名 JSON 记录实际录制时长和帧数。
+  关闭或切换视频源会结束当前录像；关闭上位机时先完成录像保存，再退出。
+  静态照片、无画面和停止更新的视频源不能开始录像。编码错误会在界面提示。
+
+已编译 FPGA 工程入口：
+  fpga_reference/project/board/build_cmos1/camera_board50.pds
+PDS：2022.2-SP6.4；器件 PGL50H / FBG484 / -6。
+已有烧录文件：C129_720p_cmos1.sbit。
+同一烧录文件同时保留在工程 generate_bitstream/ 目录。
+
+既有编译结果（均位于 fpga_reference/project/board/build_cmos1/）：
+  compile/             编译数据库
+  synthesize/          综合数据库及报告
+  device_map/          器件映射数据库、PCF
+  place_route/         布局布线数据库及资源报告
+  report_timing/       完整时序数据库 rtr.db 和时序报告
+  generate_bitstream/  对应烧录文件
+对应构建记录、结果摘要与实际执行 TCL/日志：
+  fpga_reference/project/output/c129/
+直接查看以上现有数据库和报告，不需要为了查看结果而重新编译。
+如主动重新编译，新结果应另行核对，不视为本包现有结果。
+
+生产源文件和 IP 保留原始目录；主编辑 RTL 位于 project/rtl/，PDS 使用 board/build_cmos1/source/ 内镜像。
+不要运行 prepare_board.py 覆盖本包已准备并编译的工程。
+仅需要以后重新编译时才使用 tools/build_c129.py --seed 19，并按本机配置 PDS_SHELL 与许可证。
+
+标定文件：
+  相机镜头：host/calibration/C97_joint_720p/calibration.json
+  最新 IMU：host/calibration/IMU_mounting_20261030_new_position_PENDING_VALIDATION.json
+  FPGA 参数及原始标定相关源码：fpga_reference/project/calibration/
+上位机从包内相对路径预载最新 IMU 文件，不自动确认安装或开启补偿。
+该矩阵保留 confirmed=false 和待独立验证状态；完整三轴补偿未验收。
+IMU_mounting_temporary.json 和 mounting.example.json 为原有临时/示例文件，不是默认矩阵。
+最新矩阵的 source_report/source_session 字段仅记录原采集来源；历史采集目录不随包附带，载入矩阵不依赖这些路径。
+
+仅排除与当前已编译工程无关的项目离线测试、历史采集输出及修改记录。
+本次只进行文件完整性与构建记录对应关系核对，未运行功能测试、量化或重新编译。
+SHA256SUMS.txt 可用于核对包内文件完整性。

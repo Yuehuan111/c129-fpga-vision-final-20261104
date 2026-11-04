@@ -1,0 +1,142 @@
+{
+  "parameter_version": "C97_720P_rot180_20261019_from_143704",
+  "model": "opencv_fisheye_k1_k2_k3_k4",
+  "image_size": [
+    1280,
+    720
+  ],
+  "output_image_size": [
+    1280,
+    720
+  ],
+  "camera_matrix": [
+    [
+      419.3183179078504,
+      0.0,
+      621.9767084893875
+    ],
+    [
+      0.0,
+      422.705364018169,
+      334.89168714681045
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "output_camera_matrix": [
+    [
+      354.7577929297721,
+      0.0,
+      639.5
+    ],
+    [
+      0.0,
+      354.7577929297721,
+      359.49999999999994
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "dist_coeff_order": [
+    "fish_k1",
+    "fish_k2",
+    "fish_k3",
+    "fish_k4"
+  ],
+  "dist_coeffs": [
+    -0.00018930462432682472,
+    0.002909516916793169,
+    0.0032269961463248,
+    -0.0011834774144295539
+  ],
+  "parameters": {
+    "fx": 419.3183179078504,
+    "fy": 422.705364018169,
+    "cx": 621.9767084893875,
+    "cy": 334.89168714681045,
+    "fish_k1": -0.00018930462432682472,
+    "fish_k2": 0.002909516916793169,
+    "fish_k3": 0.0032269961463248,
+    "fish_k4": -0.0011834774144295539
+  },
+  "output_parameters": {
+    "fx_out": 354.7577929297721,
+    "fy_out": 354.7577929297721,
+    "cx_out": 639.5,
+    "cy_out": 359.49999999999994
+  },
+  "rectification_rotation": [
+    [
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "roi_cropped": false,
+  "output_horizontal_fov_deg": 122.0,
+  "output_vertical_fov_deg": 90.84042722752157,
+  "source_calibration_run": "20261019_143704_826600",
+  "source_calibration_size": [
+    1920,
+    1080
+  ],
+  "source_training_rms_1080p_px": 1.2376981290896167,
+  "scaled_residual_720p_px": 0.8251320860597445,
+  "scaled_residual_is_new_validation": false,
+  "transform": {
+    "convention": "half_pixel_centers",
+    "source_to_target_matrix": [
+      [
+        0.6666666666666666,
+        0.0,
+        -0.16666666666666666
+      ],
+      [
+        0.0,
+        0.6666666666666666,
+        -0.16666666666666666
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "formula": "u720=(u1080+0.5)*2/3-0.5; v likewise",
+    "resize_chain_verified": false,
+    "crop": false,
+    "padding": false,
+    "assumed_chain": "same full 720p frame enlarged to 1080p"
+  },
+  "orientation": {
+    "calibration": "latest EXIF-aware rotated calibration",
+    "intended_fpga_input": "same orientation as current rotated calibration",
+    "additional_rotation_degrees": 0,
+    "original_user_rotation_degrees": 180,
+    "roll_degrees": 0,
+    "cos": 1,
+    "sin": 0
+  },
+  "validation_status": "offline_references_verified; board_and_capture_scaler_not_verified",
+  "brightness": {
+    "gain_q8": 256,
+    "offset": 0
+  },
+  "compatible_with_legacy_brown_fpga": false
+}

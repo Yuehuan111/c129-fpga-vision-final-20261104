@@ -1,0 +1,59 @@
+{
+  "schema": "c129_imported_quality_v1",
+  "archives": [
+    {
+      "filename": "C129_指标提交材料_20261102.zip",
+      "sha256": "3cf9a3b207f99724a86e570fd5a351dbb3b69a916ead1a7c7836176ca8325e82"
+    },
+    {
+      "filename": "C129_清晰度复测_队友资料_20261103.zip",
+      "sha256": "5559ac285ca276e1015fa928997a11641726bc6769b2bebe5c13aa85a88eb7a6"
+    }
+  ],
+  "assets": {
+    "sharpness": {
+      "path": "baseline/sharpness.json",
+      "sha256": "d0d6b36f9c62d11b2fbef8df5f4a493f83c434b747591fd1c145723134d2ad54"
+    },
+    "straightness": {
+      "path": "baseline/straightness.json",
+      "sha256": "a182a644ee0dba25e7f3bd4cb7a859d7435dbff4fcd663c036acd01d838f9b9d"
+    },
+    "verification": {
+      "path": "baseline/verification.json",
+      "sha256": "0d874086ae4affc06779b088e33a8fbf7b68c775ccdba608c1ac84b97dec2db1"
+    },
+    "inputs": {
+      "path": "baseline/inputs.json",
+      "sha256": "663a7524fd294a60a038a89e31ec48aa7ba5d1c72ba93f80e2c1c4366fa8e95a"
+    },
+    "A1": {
+      "path": "baseline/images/01_corrected_edges.png",
+      "sha256": "bc6f770f93481e4d743f587e91fd511f4bb87422e7ce55d2e25b53b9da1c34ba"
+    },
+    "A2": {
+      "path": "baseline/images/02_raw_edges.png",
+      "sha256": "42b72c7c20c8cd4276ec27feeefa11a153f0018a370b02762468b7bee2245bd0"
+    },
+    "B1": {
+      "path": "baseline/images/photo_20261102_182221_237343.png",
+      "sha256": "8383f71ac972b58b994a8d8bb8d295b815135c215acb29275136c0cc42a67bfe"
+    },
+    "B2": {
+      "path": "baseline/images/photo_20261102_182228_554589.png",
+      "sha256": "24bc2837d748fa7774f8a1279d3ce20a7f52dc84203a11dcd4861e969bea61d0"
+    },
+    "retest": {
+      "path": "retest/清晰度复测结果.txt",
+      "sha256": "bd7bf6f6a000ece963b1dddfdc04e4ed2fc50ee337d53b9215b5287be430f345"
+    },
+    "retest_chart": {
+      "path": "retest/清晰度对比.png",
+      "sha256": "38364ce6c9a8784ad998d983dcc1360a3f92da8282e935dea49432a0b81d53c9"
+    },
+    "retest_regions": {
+      "path": "retest/测量区域.png",
+      "sha256": "a1e8be6a2d8a2a4002f5baa4cb5ed4572fee00d2a852b1839d027c212d3b8141"
+    }
+  }
+}

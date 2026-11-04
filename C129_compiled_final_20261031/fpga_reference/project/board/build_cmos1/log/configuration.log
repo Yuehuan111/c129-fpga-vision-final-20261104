@@ -1,0 +1,87 @@
+[Info] [2026-10-30 19:49:04] /***************************Start Configuration***************************/
+[Info] [2026-10-30 19:49:04] Path: D:/pango/PDS_2022.2-SP6.4/bin
+[Info] [2026-10-30 19:49:04] Version: 146967
+[Info] [2026-10-30 19:49:05] Current Path: D:/FPGA_Pangu50K_Demos/C129_extended_20261030/fpga_reference/project/board/build_cmos1
+[Info] [2026-10-30 19:49:05] PDS Dir Path: D:/FPGA_Pangu50K_Demos/C129_extended_20261030/fpga_reference/project/board/build_cmos1
+[Info] [2026-10-30 19:49:12] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2026-10-30 19:49:12] Client Local host name:Nancy??
+[Debug] [2026-10-30 19:49:12] Client Local Address:192.168.216.1
+[Debug] [2026-10-30 19:49:12] Client Local Address:192.168.80.1
+[Debug] [2026-10-30 19:49:12] Client Local Address:10.128.137.98
+[Debug] [2026-10-30 19:49:12] Server Address:127.0.0.1, Port:65420
+[Debug] [2026-10-30 19:49:12] Log::Print : Connecting to server[127.0.0.1 : 65420].
+[Info] [2026-10-30 19:49:12] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2026-10-30 19:49:12] Finish.
+[Info] [2026-10-30 19:49:12] Connect server succeeded
+[Debug] [2026-10-30 19:49:12] Send RPC:1
+[Debug] [2026-10-30 19:49:12] Send cmd [check version information:40004] OK
+[Debug] [2026-10-30 19:49:12] Send RPC:2
+[Debug] [2026-10-30 19:49:12] Send cmd [get_cable_paras:40010] OK
+[Debug] [2026-10-30 19:49:12] Begin to send initialize chain cmd...
+[Debug] [2026-10-30 19:49:12] Send RPC:3
+[Debug] [2026-10-30 19:49:12] Send cmd [Open config cable:20001] OK
+[Debug] [2026-10-30 19:49:12] End to send initialize chain cmd.
+[Debug] [2026-10-30 19:49:12] COMMAND[check version information] execute successfully, takes 0.0 secs.
+[Debug] [2026-10-30 19:49:12] Log::Print : Connect to server[127.0.0.1 : 65420] successfully.
+[Debug] [2026-10-30 19:49:12] Log::Print : COMMAND[check version information] execute successfully, takes 0.0 secs.
+[Debug] [2026-10-30 19:49:14] COMMAND[get_cable_paras] execute successfully, takes 2.6 secs.
+[Debug] [2026-10-30 19:49:14] Log::Print : The cable List : 
+Cable index 0:USB Cable II/fffffffffffffffe 
+
+[Debug] [2026-10-30 19:49:14] Log::Print : COMMAND[get_cable_paras] execute successfully, takes 2.6 secs.
+[Debug] [2026-10-30 19:49:15] begin the exec of open cable cmd...
+[Debug] [2026-10-30 19:49:15] Begin to deal with chain from server...
+[Debug] [2026-10-30 19:49:15] Begin to set user chain...
+[Debug] [2026-10-30 19:49:15] End to set user chain.
+[Debug] [2026-10-30 19:49:15] Begin to update graphic item and tree item ...
+[Debug] [2026-10-30 19:49:15] End to update graphic item and tree item ...
+[Debug] [2026-10-30 19:49:15] Log::Print : PANGO USB CABLE II cable driver: D2XX DLL
+[Debug] [2026-10-30 19:49:15] Log::Print : PGL50H
+[Debug] [2026-10-30 19:49:15] Log::Print : This device configure situation (done bit): 1
+[Info] [2026-10-30 19:49:16] set OpenLastPath: D:/FPGA_Pangu50K_Demos/C129_extended_20261030/fpga_reference/project/board/build_cmos1/generate_bitstream/camera_board50_top.sbit
+[Debug] [2026-10-30 19:49:16] begin to get device info from CFG file...
+[Debug] [2026-10-30 19:49:16] end to get device info from CFG file...
+[Debug] [2026-10-30 19:49:16] Begin to update graphic item and tree item ...
+[Debug] [2026-10-30 19:49:16] End to update graphic item and tree item ...
+[Debug] [2026-10-30 19:49:16] Begin to update graphic item and tree item ...
+[Debug] [2026-10-30 19:49:16] End to update graphic item and tree item ...
+[Debug] [2026-10-30 19:49:16] End to deal wiht chain from server.
+[Debug] [2026-10-30 19:49:16] end the exec of open cable cmd.
+[Debug] [2026-10-30 19:49:16] COMMAND[Open config cable] execute successfully, takes 4.6 secs.
+[Debug] [2026-10-30 19:49:16] Log::Print : COMMAND[Open config cable] execute successfully, takes 4.6 secs.
+[Debug] [2026-10-30 19:49:21] Begin to assign configuration file...
+[Debug] [2026-10-30 19:49:23] selected file name is empty and ignore.
+[Debug] [2026-10-30 19:49:23] End to assign configuration file...
+[Debug] [2026-10-30 20:05:42] Begin to assign configuration file...
+[Debug] [2026-10-30 20:05:44] selected file name is empty and ignore.
+[Debug] [2026-10-30 20:05:44] End to assign configuration file...
+[Debug] [2026-10-30 20:05:46] Begin to send programming cmd...
+[Debug] [2026-10-30 20:05:46] Send RPC:4
+[Debug] [2026-10-30 20:05:46] Begin to send program data.
+[Debug] [2026-10-30 20:05:46] End to send program data.
+[Debug] [2026-10-30 20:05:46] Send cmd [Program:20002] OK
+[Debug] [2026-10-30 20:05:47] The value of Progress is 6
+[Debug] [2026-10-30 20:05:47] The value of Progress is 10
+[Debug] [2026-10-30 20:05:47] The value of Progress is 15
+[Debug] [2026-10-30 20:05:47] The value of Progress is 20
+[Debug] [2026-10-30 20:05:47] The value of Progress is 25
+[Debug] [2026-10-30 20:05:47] The value of Progress is 30
+[Debug] [2026-10-30 20:05:47] The value of Progress is 35
+[Debug] [2026-10-30 20:05:47] The value of Progress is 40
+[Debug] [2026-10-30 20:05:48] The value of Progress is 45
+[Debug] [2026-10-30 20:05:48] The value of Progress is 50
+[Debug] [2026-10-30 20:05:48] The value of Progress is 55
+[Debug] [2026-10-30 20:05:48] The value of Progress is 60
+[Debug] [2026-10-30 20:05:48] The value of Progress is 65
+[Debug] [2026-10-30 20:05:48] The value of Progress is 70
+[Debug] [2026-10-30 20:05:48] The value of Progress is 75
+[Debug] [2026-10-30 20:05:48] The value of Progress is 80
+[Debug] [2026-10-30 20:05:48] The value of Progress is 85
+[Debug] [2026-10-30 20:05:49] The value of Progress is 90
+[Debug] [2026-10-30 20:05:49] The value of Progress is 95
+[Debug] [2026-10-30 20:05:49] The value of Progress is 100
+[Debug] [2026-10-30 20:05:49] COMMAND[Program] execute successfully, takes 2.6 secs.
+[Debug] [2026-10-30 20:05:49] End to send programming cmd.
+[Debug] [2026-10-30 20:05:49] Log::Print : The done bit is 1
+[Debug] [2026-10-30 20:05:49] Log::Print : COMMAND[Program] execute successfully, takes 2.6 secs.
+[Info] [2026-10-30 21:36:19] /***************************End Configration***************************/

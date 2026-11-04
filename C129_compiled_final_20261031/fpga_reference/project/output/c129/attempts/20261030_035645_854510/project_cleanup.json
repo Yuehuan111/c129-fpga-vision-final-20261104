@@ -1,0 +1,9 @@
+{
+  "before_sha256": "3971e6a0328ab0d37261b888d667ca60494e62a195111df6be817af1b2322de9",
+  "after_sha256": "3971e6a0328ab0d37261b888d667ca60494e62a195111df6be817af1b2322de9",
+  "removed_count": 0,
+  "removed_options": [],
+  "other_bytes_unchanged": true,
+  "balanced_s_expressions": true,
+  "scope": "Only cmd_pnr input_db_file and input_place_db_file; all source/constraint/other option bytes preserved."
+}

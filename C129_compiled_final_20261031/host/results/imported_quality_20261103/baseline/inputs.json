@@ -1,0 +1,49 @@
+{
+  "test_date": "2026-11-02",
+  "inputs": [
+    {
+      "id": "A1",
+      "metric": "清晰度",
+      "mode": "普通矫正",
+      "file": "01_清晰度数据/inputs/01_corrected_edges.png",
+      "sha256": "bc6f770f93481e4d743f587e91fd511f4bb87422e7ce55d2e25b53b9da1c34ba",
+      "detail_enhancement": false
+    },
+    {
+      "id": "A2",
+      "metric": "清晰度",
+      "mode": "原图",
+      "file": "01_清晰度数据/inputs/02_raw_edges.png",
+      "sha256": "42b72c7c20c8cd4276ec27feeefa11a153f0018a370b02762468b7bee2245bd0",
+      "detail_enhancement": false
+    },
+    {
+      "id": "B1",
+      "metric": "直线度",
+      "mode": "普通矫正",
+      "time": "18:22:21",
+      "file": "02_直线度数据/inputs/photo_20261102_182221_237343.png",
+      "sha256": "8383f71ac972b58b994a8d8bb8d295b815135c215acb29275136c0cc42a67bfe",
+      "detail_enhancement": false
+    },
+    {
+      "id": "B2",
+      "metric": "直线度",
+      "mode": "原图",
+      "time": "18:22:28",
+      "file": "02_直线度数据/inputs/photo_20261102_182228_554589.png",
+      "sha256": "24bc2837d748fa7774f8a1279d3ce20a7f52dc84203a11dcd4861e969bea61d0",
+      "detail_enhancement": false
+    }
+  ],
+  "resolution": [
+    1280,
+    720
+  ],
+  "detail_enhancement": false,
+  "capture_batches": "A and B are separate photo pairs.",
+  "measurement_sources": {
+    "sharpness_results_sha256": "9e54a7c2c5a86cff3eb83a31b2cfac5f55042cc9c5a4491e14784241294e0bad",
+    "straightness_results_sha256": "a182a644ee0dba25e7f3bd4cb7a859d7435dbff4fcd663c036acd01d838f9b9d"
+  }
+}

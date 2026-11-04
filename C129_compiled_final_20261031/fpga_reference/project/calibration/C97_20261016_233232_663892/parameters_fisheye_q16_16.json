@@ -1,0 +1,121 @@
+{
+  "total_bits": 32,
+  "fractional_bits": 16,
+  "fixed_point_format": "Q16.16",
+  "rounding": "floor(value * 2^fractional_bits + 0.5)",
+  "all_parameters_fit": true,
+  "parameters": {
+    "fx": {
+      "float_value": 628.8763916729439,
+      "decimal": 41214043,
+      "verilog_hex": "32'sh0274E05B",
+      "restored_float": 628.8763885498047,
+      "quantization_error": -3.12313920858287e-06
+    },
+    "fy": {
+      "float_value": 633.9943511186069,
+      "decimal": 41549454,
+      "verilog_hex": "32'sh0279FE8E",
+      "restored_float": 633.9943542480469,
+      "quantization_error": 3.1294399605030776e-06
+    },
+    "cx": {
+      "float_value": 985.1580463724646,
+      "decimal": 64563318,
+      "verilog_hex": "32'sh03D92876",
+      "restored_float": 985.1580505371094,
+      "quantization_error": 4.1646447925813845e-06
+    },
+    "cy": {
+      "float_value": 576.4340258327502,
+      "decimal": 37777180,
+      "verilog_hex": "32'sh02406F1C",
+      "restored_float": 576.4340209960938,
+      "quantization_error": -4.8366564442403615e-06
+    },
+    "fish_k1": {
+      "float_value": 3.854847551597885e-05,
+      "decimal": 3,
+      "verilog_hex": "32'sh00000003",
+      "restored_float": 4.57763671875e-05,
+      "quantization_error": 7.227891671521149e-06
+    },
+    "fish_k2": {
+      "float_value": 0.0025994046384482383,
+      "decimal": 170,
+      "verilog_hex": "32'sh000000AA",
+      "restored_float": 0.002593994140625,
+      "quantization_error": -5.410497823238325e-06
+    },
+    "fish_k3": {
+      "float_value": 0.0035125027887971207,
+      "decimal": 230,
+      "verilog_hex": "32'sh000000E6",
+      "restored_float": 0.003509521484375,
+      "quantization_error": -2.9813044221207487e-06
+    },
+    "fish_k4": {
+      "float_value": -0.0012738618732995029,
+      "decimal": -83,
+      "verilog_hex": "32'shFFFFFFAD",
+      "restored_float": -0.0012664794921875,
+      "quantization_error": 7.382381112002855e-06
+    }
+  },
+  "model": "opencv_fisheye_k1_k2_k3_k4",
+  "opencv_version": "5.0.0",
+  "dist_coeff_order": [
+    "fish_k1",
+    "fish_k2",
+    "fish_k3",
+    "fish_k4"
+  ],
+  "compatible_with_legacy_brown_fpga": false,
+  "input_image_size": [
+    1920,
+    1080
+  ],
+  "output_image_size": [
+    1920,
+    1080
+  ],
+  "output_view_selection": "centered_horizontal_fov",
+  "output_fov_parameter": "horizontal_fov_deg",
+  "output_fov_value": 122.0,
+  "output_horizontal_fov_deg": 122.0,
+  "output_vertical_fov_deg": 90.84042722752157,
+  "map_in_bounds_fraction": 0.9999585262345679,
+  "output_balance": null,
+  "roi_cropped": false,
+  "parameter_usage": "Normalize output pixels with K_out, apply this model's distortion, then project with input K; Q16.16 parameters alone do not define intermediate arithmetic.",
+  "output_parameters": {
+    "fx_out": {
+      "float_value": 532.1366893946582,
+      "decimal": 34874110,
+      "verilog_hex": "32'sh021422FE",
+      "restored_float": 532.1366882324219,
+      "quantization_error": -1.162236344498524e-06
+    },
+    "fy_out": {
+      "float_value": 532.1366893946582,
+      "decimal": 34874110,
+      "verilog_hex": "32'sh021422FE",
+      "restored_float": 532.1366882324219,
+      "quantization_error": -1.162236344498524e-06
+    },
+    "cx_out": {
+      "float_value": 959.5,
+      "decimal": 62881792,
+      "verilog_hex": "32'sh03BF8000",
+      "restored_float": 959.5,
+      "quantization_error": 0.0
+    },
+    "cy_out": {
+      "float_value": 539.5,
+      "decimal": 35356672,
+      "verilog_hex": "32'sh021B8000",
+      "restored_float": 539.5,
+      "quantization_error": 0.0
+    }
+  }
+}

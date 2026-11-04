@@ -1,0 +1,107 @@
+{
+  "model": "opencv_fisheye_k1_k2_k3_k4",
+  "width": 1280,
+  "height": 720,
+  "image_size": [
+    1280,
+    720
+  ],
+  "output_image_size": [
+    1280,
+    720
+  ],
+  "camera_matrix": [
+    [
+      419.3183179078504,
+      0.0,
+      621.9767084893875
+    ],
+    [
+      0.0,
+      422.705364018169,
+      334.89168714681045
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "output_camera_matrix": [
+    [
+      354.7577929297721,
+      0.0,
+      639.5
+    ],
+    [
+      0.0,
+      354.7577929297721,
+      359.5
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "dist_coeff_order": [
+    "fish_k1",
+    "fish_k2",
+    "fish_k3",
+    "fish_k4"
+  ],
+  "dist_coeffs": [
+    -0.00018930462432682472,
+    0.002909516916793169,
+    0.0032269961463248,
+    -0.0011834774144295539
+  ],
+  "synthetic": false,
+  "roi_cropped": false,
+  "rectification_rotation": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "sensor_mode": "ov5640_dvp_rgb565_wide_1280x720_30_candidate_v1",
+  "output_horizontal_fov_deg": 122.0,
+  "calibration_kind": "resolution_derived_from_real_C97",
+  "optical_match_verified": false,
+  "calibration_source_run": "20261018_215216_091698",
+  "source_training_rms_1080p_px": 1.2376981290896167,
+  "orientation": {
+    "calibration": "C supplied EXIF-aware/oriented training coordinates",
+    "intended_fpga_input": "C declares photos restored to FPGA input orientation",
+    "additional_rotation_degrees": 0,
+    "roll_degrees": 0,
+    "board_orientation_verified": false
+  },
+  "derivation": {
+    "source": "calibration/C97_20261018_215216/original_run_20261018_215216_091698/calibration.json",
+    "source_sha256": "fe9033d661ebc0290687ad5e92d936d908703ed0a4f9def7064a61dce1112fd5",
+    "source_image_size": [
+      1920,
+      1080
+    ],
+    "scale_numerator": 2,
+    "scale_denominator": 3,
+    "coordinate_rule": "p720=(p1080+0.5)*2/3-0.5",
+    "assumption": "Same field, no extra crop; original1080 capture resizing/scaler pixel-center convention requires board verification.",
+    "new_calibration_measurement": false,
+    "source_is_refitted_calibration": true,
+    "source_run": "20261018_215216_091698",
+    "quantization": "Scale floating K and K_out first, then round once to Q16.16; D is not scaled."
+  }
+}

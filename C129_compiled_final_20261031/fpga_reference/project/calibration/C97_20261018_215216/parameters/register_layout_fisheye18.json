@@ -1,0 +1,149 @@
+{
+  "protocol": "existing local fisheye18 CRC16 protocol; not Brown",
+  "parameters": [
+    {
+      "address": 0,
+      "name": "fx_src",
+      "decimal": 27480445,
+      "hex": "01A3517D",
+      "format": "Q16.16"
+    },
+    {
+      "address": 1,
+      "name": "fy_src",
+      "decimal": 27702419,
+      "hex": "01A6B493",
+      "format": "Q16.16"
+    },
+    {
+      "address": 2,
+      "name": "cx_src",
+      "decimal": 40761866,
+      "hex": "026DFA0A",
+      "format": "Q16.16"
+    },
+    {
+      "address": 3,
+      "name": "cy_src",
+      "decimal": 21947462,
+      "hex": "014EE446",
+      "format": "Q16.16"
+    },
+    {
+      "address": 4,
+      "name": "cx_out",
+      "decimal": 41910272,
+      "hex": "027F8000",
+      "format": "Q16.16"
+    },
+    {
+      "address": 5,
+      "name": "cy_out",
+      "decimal": 23560192,
+      "hex": "01678000",
+      "format": "Q16.16"
+    },
+    {
+      "address": 6,
+      "name": "fx_out",
+      "decimal": 23249407,
+      "hex": "0162C1FF",
+      "format": "Q16.16"
+    },
+    {
+      "address": 7,
+      "name": "fy_out",
+      "decimal": 23249407,
+      "hex": "0162C1FF",
+      "format": "Q16.16"
+    },
+    {
+      "address": 8,
+      "name": "fish_k1",
+      "decimal": -12,
+      "hex": "FFFFFFF4",
+      "format": "Q16.16"
+    },
+    {
+      "address": 9,
+      "name": "fish_k2",
+      "decimal": 191,
+      "hex": "000000BF",
+      "format": "Q16.16"
+    },
+    {
+      "address": 10,
+      "name": "fish_k3",
+      "decimal": 211,
+      "hex": "000000D3",
+      "format": "Q16.16"
+    },
+    {
+      "address": 11,
+      "name": "fish_k4",
+      "decimal": -78,
+      "hex": "FFFFFFB2",
+      "format": "Q16.16"
+    },
+    {
+      "address": 12,
+      "name": "cos",
+      "decimal": 65536,
+      "hex": "00010000",
+      "format": "Q16.16"
+    },
+    {
+      "address": 13,
+      "name": "sin",
+      "decimal": 0,
+      "hex": "00000000",
+      "format": "Q16.16"
+    },
+    {
+      "address": 14,
+      "name": "gain_q8",
+      "decimal": 256,
+      "hex": "00000100",
+      "format": "Q8 gain"
+    },
+    {
+      "address": 15,
+      "name": "offset",
+      "decimal": 0,
+      "hex": "00000000",
+      "format": "integer/tag"
+    },
+    {
+      "address": 16,
+      "name": "mode",
+      "decimal": 1,
+      "hex": "00000001",
+      "format": "integer/tag"
+    },
+    {
+      "address": 17,
+      "name": "model_tag",
+      "decimal": 1179210568,
+      "hex": "46495348",
+      "format": "integer/tag"
+    }
+  ],
+  "required_dimensions": [
+    1280,
+    720
+  ],
+  "dimensions_encoded_in_register_words": false,
+  "required_compile_time_settings": {
+    "IMG_WIDTH": 1280,
+    "IMG_HEIGHT": 720
+  },
+  "commit_address": 255,
+  "commit_value_hex": "434F4D54",
+  "uart": {
+    "baud": 115200,
+    "data_bits": 8,
+    "parity": "none",
+    "stop_bits": 1
+  },
+  "hardware_compatibility": "Only matching fisheye18 RTL compiled for 1280x720; not a 1080p bitstream."
+}
